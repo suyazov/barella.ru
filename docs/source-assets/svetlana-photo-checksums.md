@@ -4,9 +4,9 @@
 
 | Файл | SHA-256 |
 |---|---|
-| PHOTO-2019-08-29-15-54-59.jpg | pending-local-verification |
-| PHOTO-2019-08-29-15-55-00.jpg | pending-local-verification |
-| PHOTO-2019-08-31-18-28-39.jpg | pending-local-verification |
-| PHOTO-2019-09-16-08-09-40.jpg | pending-local-verification |
-| PHOTO-2019-10-23-18-48-24.jpg | pending-local-verification |
-| PHOTO-2019-10-23-18-48-25.jpg | pending-local-verification |
+| PHOTO-2019-08-29-15-54-59.jpg | `dc509696778acd62dc0b6ab68b642b9bb0766015fc50014391333362ec70bf7c` |
+| PHOTO-2019-08-29-15-55-00.jpg | `18de8fac1de968550beacf7f3ea4fbf0992d76169b0a65153c48286751aca748` |
+| PHOTO-2019-08-31-18-28-39.jpg | `c243cc5f18f3f9c81cc9322dbc50c60057f704a8229d10717b03001f53a6aaca` |
+| PHOTO-2019-09-16-08-09-40.jpg | `a921e28e9ece205cf7c69466559bb75597a47da809793df9ec46eb0a19ab02ae` |
+| PHOTO-2019-10-23-18-48-24.jpg | `4e4c58f6a1e27545644aac98146255d098e3a6bfe81de8b85e06c7d813f9bafa` |
+| PHOTO-2019-10-23-18-48-25.jpg | `b7994c832e92c8b222274f450b573c0789cec8a0a015c6906fcee4119c0f9043` |
