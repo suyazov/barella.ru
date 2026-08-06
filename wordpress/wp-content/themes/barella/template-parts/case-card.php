@@ -9,7 +9,7 @@
 $barella_case = isset( $barella_case ) ? $barella_case : array();
 ?>
 <article class="case">
-	<div class="photo-placeholder">Фото объекта<br />добавляется отдельной задачей оператора</div>
+	<div class="photo-placeholder">Фото объекта<br />публикуется после согласования</div>
 	<div class="case__body">
 		<h3 class="case__title"><?php echo esc_html( $barella_case['title'] ); ?></h3>
 		<p class="case__meta"><?php echo esc_html( $barella_case['place'] ); ?> · <?php echo esc_html( $barella_case['scope'] ); ?></p>
