@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "06-polisan-ampoule",
+  "object_title": "ПОЛИСАН — чистое помещение новой ампульной линии",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "IMG-20241127-WA0008.jpg",
+      "source_path": "фото/6. Фото монтажа Полисан ХС+ТС 2024/для сайта/IMG-20241127-WA0008.jpg",
+      "source_size": 243949,
+      "source_mime": "image/jpeg",
+      "source_sha256": "8eb3598818e025e37807a7689a42d2ce839f33ee3a6032077056e1b5cbe6af55",
+      "source_dimensions": {
+        "width": 899,
+        "height": 1600
+      },
+      "web_size": 275541,
+      "web_mime": "image/jpeg",
+      "web_sha256": "7b7a67d0b329cfc27f049eacfebdfbc9e0229b6ef95bcc0f4c751cd33ba27248",
+      "web_dimensions": {
+        "width": 899,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "IMG-20241127-WA0009.jpg",
+      "source_path": "фото/6. Фото монтажа Полисан ХС+ТС 2024/для сайта/IMG-20241127-WA0009.jpg",
+      "source_size": 217819,
+      "source_mime": "image/jpeg",
+      "source_sha256": "774d77dbc851fe1b82280e52cef408456531bb8d36eadaca4453d0bcbeab227d",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 899
+      },
+      "web_size": 246055,
+      "web_mime": "image/jpeg",
+      "web_sha256": "aec4b495153b0d66a8a05ee0cfbcb0bbb055594b086046aec4dac106b69224bf",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 899
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "IMG-20241112-WA0076.jpg",
+      "source_path": "фото/6. Фото монтажа Полисан ХС+ТС 2024/для сайта/IMG-20241112-WA0076.jpg",
+      "source_size": 169740,
+      "source_mime": "image/jpeg",
+      "source_sha256": "340720b3957d0f5ca6183fbb2b57af2ced114d873571b4a90942a596f6ff7c87",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 191291,
+      "web_mime": "image/jpeg",
+      "web_sha256": "9caec1a968e8f845dd10db6a79f316331f4c3eb546369d4ae3a1a7a4861445e8",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "IMG-20241127-WA0007.jpg",
+      "source_path": "фото/6. Фото монтажа Полисан ХС+ТС 2024/для сайта/IMG-20241127-WA0007.jpg",
+      "source_size": 250218,
+      "source_mime": "image/jpeg",
+      "source_sha256": "4006eea537542db92ef0f7890516292029828b0d108d83267b869eda8e0485f7",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 899
+      },
+      "web_size": 281411,
+      "web_mime": "image/jpeg",
+      "web_sha256": "4c941af6b8e2b9eb49a21fa1388d9bfa9ecf9627f1becf32ea7aa32c0431dea7",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 899
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "IMG-20241112-WA0071.jpg",
+      "source_path": "фото/6. Фото монтажа Полисан ХС+ТС 2024/для сайта/IMG-20241112-WA0071.jpg",
+      "source_size": 107045,
+      "source_mime": "image/jpeg",
+      "source_sha256": "ea8ff5d4f8ac06d5fa2ab0b01835aa3c0d2a867e98f9ff878d35f758b75d77c4",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 121682,
+      "web_mime": "image/jpeg",
+      "web_sha256": "90199ee326827e92170a9b45b5528fb1b44998ee3de148113a9fcfb642e955b5",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "06.jpg",
+      "source_name": "IMG-20241112-WA0065.jpg",
+      "source_path": "фото/6. Фото монтажа Полисан ХС+ТС 2024/для сайта/IMG-20241112-WA0065.jpg",
+      "source_size": 124143,
+      "source_mime": "image/jpeg",
+      "source_sha256": "2d1c60035366b193c0fc7a67708dbc8512f52cac6019083eebe4a496bff1e7cf",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 140879,
+      "web_mime": "image/jpeg",
+      "web_sha256": "5b590070a12c4a265adb681a3f89e09a2df263ee7f9debaa78ed7d46845d122c",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "07.jpg",
+      "source_name": "IMG-20241127-WA0012.jpg",
+      "source_path": "фото/6. Фото монтажа Полисан ХС+ТС 2024/для сайта/IMG-20241127-WA0012.jpg",
+      "source_size": 311041,
+      "source_mime": "image/jpeg",
+      "source_sha256": "b01ba4cbc66ae5aa16181d515d75e6203a260079ad4e6638f272eec2faf98ce3",
+      "source_dimensions": {
+        "width": 899,
+        "height": 1600
+      },
+      "web_size": 348247,
+      "web_mime": "image/jpeg",
+      "web_sha256": "de9445a166ecad114a1ac76db5de823959137b0f1cd7972aad4d791393a10909",
+      "web_dimensions": {
+        "width": 899,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "08-pskov-galvanic",
+  "object_title": "Кабельное производство в Пскове — дробеструйная камера и цех гальваники",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "Изображение WhatsApp 2024-12-03 в 12.33.04_2f832c7d.jpg",
+      "source_path": "фото/8. Фото Псков/для сайта 2/Изображение WhatsApp 2024-12-03 в 12.33.04_2f832c7d.jpg",
+      "source_size": 217857,
+      "source_mime": "image/jpeg",
+      "source_sha256": "83b08d408af41c9e66fd9ad6c27dbaa89317a2fa4efb9a2a49146a2e0ddfd40b",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 228868,
+      "web_mime": "image/jpeg",
+      "web_sha256": "8ef7d9471d657fec1cb980e25322913496a24ef107b57ff583e4d5649d0a78bd",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "Изображение WhatsApp 2024-12-06 в 09.40.25_0b90fedc.jpg",
+      "source_path": "фото/8. Фото Псков/для сайта 2/Изображение WhatsApp 2024-12-06 в 09.40.25_0b90fedc.jpg",
+      "source_size": 269767,
+      "source_mime": "image/jpeg",
+      "source_sha256": "efe22b176122da8f162cee156bd9a385cd87b504902e3041cd5abc0fd690f89f",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 285375,
+      "web_mime": "image/jpeg",
+      "web_sha256": "fe72f72496f09ee25b75b60f190060f86d6dd89ff1dd6b8fb2f95810bed1f88c",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "IMG-20250130-WA0002.jpg",
+      "source_path": "фото/8. Фото Псков/для сайта 2/IMG-20250130-WA0002.jpg",
+      "source_size": 205858,
+      "source_mime": "image/jpeg",
+      "source_sha256": "33282435d36173d58e19704096bb595d47324590c42faee04938fdad07d07df2",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 219598,
+      "web_mime": "image/jpeg",
+      "web_sha256": "d6c6da16e6b29afb2d5b67ba723047acc5acc2cf8d148a21d54964940414d174",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "IMG-20241207-WA0011.jpg",
+      "source_path": "фото/8. Фото Псков/для сайта 2/IMG-20241207-WA0011.jpg",
+      "source_size": 442178,
+      "source_mime": "image/jpeg",
+      "source_sha256": "4184153662bf95f3c08b1832afa7d55bccf94d435b508d333c4d7ba5366871c7",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 466519,
+      "web_mime": "image/jpeg",
+      "web_sha256": "b8c4a89e67128f51769ce376a2a9a163542e3fce4a4b20c2fa956187127887f8",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "IMG-20250130-WA0004.jpg",
+      "source_path": "фото/8. Фото Псков/для сайта 2/IMG-20250130-WA0004.jpg",
+      "source_size": 220578,
+      "source_mime": "image/jpeg",
+      "source_sha256": "321951016c004c524ce266a4a89b42c27660abb11ba0d5f9d3d16b569c4b1d72",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 234445,
+      "web_mime": "image/jpeg",
+      "web_sha256": "bdb746a2cbce3aba5129b8e4845067c970cae266c9375e7f5d496ea467ad2dc6",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

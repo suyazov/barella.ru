@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "09-polisan-package",
+  "object_title": "ПОЛИСАН — чистое помещение второй пакетной линии",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "Изображение WhatsApp 2024-10-07 в 12.02.50_9672b624.jpg",
+      "source_path": "фото/9. Фото Пакетная/для сайта/Изображение WhatsApp 2024-10-07 в 12.02.50_9672b624.jpg",
+      "source_size": 345112,
+      "source_mime": "image/jpeg",
+      "source_sha256": "af172afe9a58ed9279398ef0bc4ff0619f6306893310ad11279f3aef22188cb5",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "web_size": 364612,
+      "web_mime": "image/jpeg",
+      "web_sha256": "0ea1a43ec43a934f976111a51a388eb20f0631c8432f71b1addf14cb8640c55f",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "Изображение WhatsApp 2024-11-30 в 15.20.50_24133588.jpg",
+      "source_path": "фото/9. Фото Пакетная/для сайта/Изображение WhatsApp 2024-11-30 в 15.20.50_24133588.jpg",
+      "source_size": 434288,
+      "source_mime": "image/jpeg",
+      "source_sha256": "3049b5cd34689da318bbdeadb4da1353d3a99c4b5096d5e03950a19e45bf71ac",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 457122,
+      "web_mime": "image/jpeg",
+      "web_sha256": "2b61ab53953e9095cb4f4d5680940282e6f1726f071925374fc0f9e3fe9a5f7d",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "Изображение WhatsApp 2024-10-09 в 14.16.24_f4202dea.jpg",
+      "source_path": "фото/9. Фото Пакетная/для сайта/Изображение WhatsApp 2024-10-09 в 14.16.24_f4202dea.jpg",
+      "source_size": 263442,
+      "source_mime": "image/jpeg",
+      "source_sha256": "2dc0eda4ff1bdee0a850affbc0fd07b44aa9577b5fdc999f3d172bbdb9fc38aa",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 280602,
+      "web_mime": "image/jpeg",
+      "web_sha256": "54b91f0a75a337e7a3c064759898af0d2d7706c938f5ec8e3bb62d16ad6bdd77",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "Изображение WhatsApp 2024-10-07 в 12.02.51_6a449053.jpg",
+      "source_path": "фото/9. Фото Пакетная/для сайта/Изображение WhatsApp 2024-10-07 в 12.02.51_6a449053.jpg",
+      "source_size": 356662,
+      "source_mime": "image/jpeg",
+      "source_sha256": "ad4014bafc9c998c53293e9b2ce69c7511bc496b3d5a65540ae10a7d867649ea",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "web_size": 375360,
+      "web_mime": "image/jpeg",
+      "web_sha256": "e073e5f64c610abc3ddb4228b54198665c306eac5cf186862f820d6a639699aa",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "Изображение WhatsApp 2024-10-07 в 12.02.50_e7aa3205.jpg",
+      "source_path": "фото/9. Фото Пакетная/для сайта/Изображение WhatsApp 2024-10-07 в 12.02.50_e7aa3205.jpg",
+      "source_size": 411971,
+      "source_mime": "image/jpeg",
+      "source_sha256": "728c392c1da208a2b40ae382866970d0dd676684ecf3041f115ab93f5ac19d4f",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "web_size": 433354,
+      "web_mime": "image/jpeg",
+      "web_sha256": "1ba366ec64c2383ae89c919ad7ebaf1ebe1f75727caeeda53e94d175dc8e264e",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

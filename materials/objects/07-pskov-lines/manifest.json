@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "07-pskov-lines",
+  "object_title": "Кабельное производство в Пскове — производственные линии и покрасочная камера",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "IMG-20240816-WA0005.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240816-WA0005.jpg",
+      "source_size": 233241,
+      "source_mime": "image/jpeg",
+      "source_sha256": "35c5aec4f439400ae85a7f6a5bc0268f902440222c3552c892a6df94d1113f87",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 248365,
+      "web_mime": "image/jpeg",
+      "web_sha256": "ed86bbc6ed080004d76cfa93cbde9dcd3f3c0544571c019d1e800469fdf30521",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "IMG-20241216-WA0008.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20241216-WA0008.jpg",
+      "source_size": 251299,
+      "source_mime": "image/jpeg",
+      "source_sha256": "27ad2be9f1c8d399721af88380c8533c5b722433d1fe547a6794f56882d6e78e",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "web_size": 267578,
+      "web_mime": "image/jpeg",
+      "web_sha256": "4c7f2fed3d84bd25d3571602e3d86af0cf1d1110f541b1b8c19e986d78947472",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "IMG-20240826-WA0007.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240826-WA0007.jpg",
+      "source_size": 262158,
+      "source_mime": "image/jpeg",
+      "source_sha256": "e35e9e7e6935dc8d6e65c327dfdb3cb789a96ffec3b75e51b5ca927fc581d7a1",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 276977,
+      "web_mime": "image/jpeg",
+      "web_sha256": "9f912775d2278ed6a9f6d0dc12346112bd5d660a603039d4e3c1a0d520068392",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "IMG-20240826-WA0011.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240826-WA0011.jpg",
+      "source_size": 256180,
+      "source_mime": "image/jpeg",
+      "source_sha256": "6903166e2f055aa3a72612c28630cd72d829af7ad5acfa3dd97fe03fe93e58d9",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 270465,
+      "web_mime": "image/jpeg",
+      "web_sha256": "24e7e17ceaa579c575cb873989e45cdc129c6b619441f878acb0491c7bdc5ddd",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "IMG-20240828-WA0008.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240828-WA0008.jpg",
+      "source_size": 313347,
+      "source_mime": "image/jpeg",
+      "source_sha256": "4b573828c9648c99e1787dc799864dac22da69ec9d9ec9e041a333918dcf5139",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 330983,
+      "web_mime": "image/jpeg",
+      "web_sha256": "7fe4f644a01375c236ed6a0e54c873079adde4b2188c0765dd25e9b81976b1b5",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "06.jpg",
+      "source_name": "IMG-20240730-WA0018.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240730-WA0018.jpg",
+      "source_size": 324437,
+      "source_mime": "image/jpeg",
+      "source_sha256": "b1dd78d09dc9f1f64ee5500d2a3a0f520fd8ec6d6945046e0229dc6d790518cf",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 343690,
+      "web_mime": "image/jpeg",
+      "web_sha256": "23553ad292e20287f492ba742e2458539d1d1109c0d7cb7917e985ab55eeabbb",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "07.jpg",
+      "source_name": "Изображение WhatsApp 2024-08-23 в 17.12.49_55d03cba.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/Изображение WhatsApp 2024-08-23 в 17.12.49_55d03cba.jpg",
+      "source_size": 272811,
+      "source_mime": "image/jpeg",
+      "source_sha256": "3b9e76323b5037da8bd9730ca303724f3b8282bdd516039eb99131cbe23cae69",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 288822,
+      "web_mime": "image/jpeg",
+      "web_sha256": "c380b042ba913ae64431034aad8bf0e0c74f6dcd71a04727fa11082762d581d8",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "08.jpg",
+      "source_name": "IMG-20240816-WA0135.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240816-WA0135.jpg",
+      "source_size": 212748,
+      "source_mime": "image/jpeg",
+      "source_sha256": "ad34fcd92f205ce74f7b362a71817535af25e47c72b68e9c0c3587563fd8f9aa",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 227227,
+      "web_mime": "image/jpeg",
+      "web_sha256": "ff0ef042920df17923e177cbd0c165872730d8b55c3f1ffccd13daa1d0597b2a",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "09.jpg",
+      "source_name": "IMG-20240730-WA0017.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240730-WA0017.jpg",
+      "source_size": 350895,
+      "source_mime": "image/jpeg",
+      "source_sha256": "2bc80a11341e5c423a9f6705d158737dddcbe7dfe99b0f5602893cf730f08dc4",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 371233,
+      "web_mime": "image/jpeg",
+      "web_sha256": "b80e4115ca189935bfe12d39e300418b93f2b5b1ccbc04c1089a00581c9a3d1b",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "10.jpg",
+      "source_name": "IMG-20240816-WA0137.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240816-WA0137.jpg",
+      "source_size": 237921,
+      "source_mime": "image/jpeg",
+      "source_sha256": "492acdde6a339645a3fb92fa8f46ec7d76b96c09b93dc3b07f942469d11d81ca",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 253591,
+      "web_mime": "image/jpeg",
+      "web_sha256": "46e1d35c4fac50c60b8aeaa14f1ea0dcd43b10d85c487bda6817666ebbc48d10",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "11.jpg",
+      "source_name": "IMG-20241004-WA0004.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20241004-WA0004.jpg",
+      "source_size": 272576,
+      "source_mime": "image/jpeg",
+      "source_sha256": "64349efaf9eef16f5612473318c90fea29d9097025e92f9d8844d34237c0f20c",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 289419,
+      "web_mime": "image/jpeg",
+      "web_sha256": "a0778cc1ebef5151dddc5d83c03128b9daf9c5a54852e2ad1fa1ced308e3d5e1",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "12.jpg",
+      "source_name": "IMG-20240730-WA0010.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240730-WA0010.jpg",
+      "source_size": 320632,
+      "source_mime": "image/jpeg",
+      "source_sha256": "18287f4f64974d33f5ab4fc7518e2713a2124f2bccde3d01aada445a94370fdd",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 339480,
+      "web_mime": "image/jpeg",
+      "web_sha256": "54f49464d3f237d8e490961b90cc30f224d81b7028ab18fc9128b98c3a1b9edf",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "13.jpg",
+      "source_name": "IMG-20241009-WA0012.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20241009-WA0012.jpg",
+      "source_size": 362830,
+      "source_mime": "image/jpeg",
+      "source_sha256": "eb0a6a0b9b682ba192ff1374e30cfbfade416a78f0bcf21668f603dcc4048aed",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "web_size": 383183,
+      "web_mime": "image/jpeg",
+      "web_sha256": "1616258f097cde6687aad5845d96b1d3f912e5aac3bbdaea6c671796955ba970",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "14.jpg",
+      "source_name": "IMG-20240730-WA0005.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240730-WA0005.jpg",
+      "source_size": 414569,
+      "source_mime": "image/jpeg",
+      "source_sha256": "a4106a5e9f85df13cc421fefe53e439ec6b28b1787bddcbad617ca0baee6f434",
+      "source_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "web_size": 437221,
+      "web_mime": "image/jpeg",
+      "web_sha256": "3e142788ed25777622d0d6e9237f9ad00462e6ef1233999c36f0721c6a0dc6b8",
+      "web_dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "15.jpg",
+      "source_name": "IMG-20241009-WA0010.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20241009-WA0010.jpg",
+      "source_size": 383856,
+      "source_mime": "image/jpeg",
+      "source_sha256": "428091bcc8af666be0e976bdd389b7202674f20b34bc950668920bf463965d9e",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "web_size": 405816,
+      "web_mime": "image/jpeg",
+      "web_sha256": "8847f2890cc3492e042ccb9c767c49a1916072a00d336050784537bce51ebb68",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "16.jpg",
+      "source_name": "IMG-20240828-WA0006.jpg",
+      "source_path": "фото/7. Фото монтажа Псков 2024/Фото монтажа Псков 2024/для сайта/IMG-20240828-WA0006.jpg",
+      "source_size": 218573,
+      "source_mime": "image/jpeg",
+      "source_sha256": "b6154bd624657fdc19e522c1107ecc574a6436ba5684b5a1ce2f2901d9147a28",
+      "source_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "web_size": 231538,
+      "web_mime": "image/jpeg",
+      "web_sha256": "05fdd57ee27420bf3d934416ba4d8347b35d9ad718745a514be4fa26d495d0db",
+      "web_dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

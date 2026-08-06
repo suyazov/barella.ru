@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "05-retinoidy",
+  "object_title": "Производственное помещение АО «Ретиноиды»",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.21.10 (4).jpeg",
+      "source_path": "фото/5. Фото Ретиноиды/для сайта 2/WhatsApp Image 2022-08-05 at 13.21.10 (4).jpeg",
+      "source_size": 57984,
+      "source_mime": "image/jpeg",
+      "source_sha256": "450658579cbcaf3191dc60959f57b61ea04ac84596d88f521afcc03dab267fce",
+      "source_dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "web_size": 65979,
+      "web_mime": "image/jpeg",
+      "web_sha256": "23de436ff7b66a475127ad26b8466b0697525d753e58b642f133b272ace63225",
+      "web_dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.25.30 (4).jpeg",
+      "source_path": "фото/5. Фото Ретиноиды/для сайта 2/WhatsApp Image 2022-08-05 at 13.25.30 (4).jpeg",
+      "source_size": 82162,
+      "source_mime": "image/jpeg",
+      "source_sha256": "d66666ec2205884d7f3e6bd43a751bb11b40ec396ac0b48822cb2c6ecb763511",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "web_size": 92774,
+      "web_mime": "image/jpeg",
+      "web_sha256": "86333a0fe538da572ae5345057ba096f90803d34076776f4159b7a449455f78e",
+      "web_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.25.30 (7).jpeg",
+      "source_path": "фото/5. Фото Ретиноиды/для сайта 2/WhatsApp Image 2022-08-05 at 13.25.30 (7).jpeg",
+      "source_size": 94312,
+      "source_mime": "image/jpeg",
+      "source_sha256": "bafcad0a8759d7ca923008b68cc5d5b39922bf172b955175f820fa3a723322c7",
+      "source_dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "web_size": 107083,
+      "web_mime": "image/jpeg",
+      "web_sha256": "ea71fad211d226acb4671538abab7723cda1b75a3859f3b6964edb02a952e340",
+      "web_dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.25.30 (3).jpeg",
+      "source_path": "фото/5. Фото Ретиноиды/для сайта 2/WhatsApp Image 2022-08-05 at 13.25.30 (3).jpeg",
+      "source_size": 104906,
+      "source_mime": "image/jpeg",
+      "source_sha256": "92a6c122a88db0d8d79f0c173229caaee005258326b034b73424e4f5b0f01520",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "web_size": 118829,
+      "web_mime": "image/jpeg",
+      "web_sha256": "64cd24d0bf1eef983419cfe1bdb10a29f9b7ec0cc3d44f13f494f7ef1d80bc66",
+      "web_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery",
+      "duplicate_source_sha256": true,
+      "duplicate_locations": [
+        {
+          "object_id": "04-nevskiy",
+          "source_path": "фото/4. Фото монтажа кальянная/Фото монтажа/для сайта/WhatsApp Image 2022-08-05 at 13.25.30 (3).jpeg"
+        }
+      ]
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.25.30 (9).jpeg",
+      "source_path": "фото/5. Фото Ретиноиды/для сайта 2/WhatsApp Image 2022-08-05 at 13.25.30 (9).jpeg",
+      "source_size": 82919,
+      "source_mime": "image/jpeg",
+      "source_sha256": "46b51b6c1cf32f8974c4684f8d69dc1c147a99fa5c854886b1338b92d2782398",
+      "source_dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "web_size": 95280,
+      "web_mime": "image/jpeg",
+      "web_sha256": "35550256c28dc08503e561df2f6f29f5c4ff4fc4b43252c3d161f71bc593e4d5",
+      "web_dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

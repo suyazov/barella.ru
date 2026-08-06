@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "03-vertical",
+  "object_title": "Апарт-отель VERTICAL",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "PHOTO-2020-09-11-15-24-12.jpg",
+      "source_path": "фото/3. Фото монтажа VERTICAL/Фото монтажа VERTICAL/для сайта/PHOTO-2020-09-11-15-24-12.jpg",
+      "source_size": 92048,
+      "source_mime": "image/jpeg",
+      "source_sha256": "3aedeeb0be97eda1ef2b6ed1b8f2b2b3688fffb508757e264efebeff690aff87",
+      "source_dimensions": {
+        "width": 720,
+        "height": 1280
+      },
+      "web_size": 103297,
+      "web_mime": "image/jpeg",
+      "web_sha256": "77ce8ed120f4b0fb67f9c5ed5e075d2b62735e054d1b5439821ae2cd9ae9859d",
+      "web_dimensions": {
+        "width": 720,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "PHOTO-2020-09-11-15-24-13.jpg",
+      "source_path": "фото/3. Фото монтажа VERTICAL/Фото монтажа VERTICAL/для сайта/PHOTO-2020-09-11-15-24-13.jpg",
+      "source_size": 105663,
+      "source_mime": "image/jpeg",
+      "source_sha256": "1958a101d2530cbed3223f03784198f74d1fe114875b7f6c88e38fef63a1d75e",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "web_size": 115934,
+      "web_mime": "image/jpeg",
+      "web_sha256": "c8317d4c4171048357e5dcaf514aaa712826304f7db36faebdf751d89d5667b0",
+      "web_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "PHOTO-2020-09-11-15-24-17.jpg",
+      "source_path": "фото/3. Фото монтажа VERTICAL/Фото монтажа VERTICAL/для сайта/PHOTO-2020-09-11-15-24-17.jpg",
+      "source_size": 51378,
+      "source_mime": "image/jpeg",
+      "source_sha256": "8c000bb7e8bcaf3af9b47c17025196267cc35fe0a6d11abffdd32c6e13c96633",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "web_size": 59043,
+      "web_mime": "image/jpeg",
+      "web_sha256": "482d4f7f0fda479d49bf9005ac3abdf0e718c5d76cd1e092e3d9ffc19f3170d2",
+      "web_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "PHOTO-2020-09-11-15-24-16.jpg",
+      "source_path": "фото/3. Фото монтажа VERTICAL/Фото монтажа VERTICAL/для сайта/PHOTO-2020-09-11-15-24-16.jpg",
+      "source_size": 75129,
+      "source_mime": "image/jpeg",
+      "source_sha256": "973b9d9e7b6e1e9cb103110a62a949e2bdd040b9c3d6d4dd0f313e6fd4215df3",
+      "source_dimensions": {
+        "width": 720,
+        "height": 1280
+      },
+      "web_size": 87579,
+      "web_mime": "image/jpeg",
+      "web_sha256": "7a7ed9912d1c9f957737d550d4a16a6ab73cdc6693a539c9e6215e33d44ff950",
+      "web_dimensions": {
+        "width": 720,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "PHOTO-2020-09-11-15-24-14.jpg",
+      "source_path": "фото/3. Фото монтажа VERTICAL/Фото монтажа VERTICAL/для сайта/PHOTO-2020-09-11-15-24-14.jpg",
+      "source_size": 57504,
+      "source_mime": "image/jpeg",
+      "source_sha256": "fefff075e1f8fc90abcdb2ac70cb6e4619fe0817f04a15dd0d3c7645534d267f",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "web_size": 64075,
+      "web_mime": "image/jpeg",
+      "web_sha256": "97c43a84c2079682a9312c2769225e2453c091c19920027ae3cd237f4c5964f4",
+      "web_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "06.jpg",
+      "source_name": "PHOTO-2020-09-11-15-24-15.jpg",
+      "source_path": "фото/3. Фото монтажа VERTICAL/Фото монтажа VERTICAL/для сайта/PHOTO-2020-09-11-15-24-15.jpg",
+      "source_size": 95654,
+      "source_mime": "image/jpeg",
+      "source_sha256": "3c58c49955e58782a93dc1a9d2bf49f73a7a17271ceb5469d58241a30a4b0ff0",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "web_size": 105976,
+      "web_mime": "image/jpeg",
+      "web_sha256": "57b86cb12421e6f76e2d8055828a68b5e5baab00658f1048bf08ee626c4c7ee1",
+      "web_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

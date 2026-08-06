@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "10-rublevo-arkhangelskoe",
+  "object_title": "Энергоцентр «Рублево-Архангельское»",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "IMG-20241112-WA0069.jpg",
+      "source_path": "фото/10. Кузнецово/для сайта/IMG-20241112-WA0069.jpg",
+      "source_size": 120948,
+      "source_mime": "image/jpeg",
+      "source_sha256": "575f99be68209046c0a652a9661db13b75419d31571e318aba5045c9059d9e75",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 138121,
+      "web_mime": "image/jpeg",
+      "web_sha256": "2756138323ca220db7e9fc233e18a63cc9bcf6aac3a14cdd87a4d11006a8da9b",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "IMG-20241112-WA0060.jpg",
+      "source_path": "фото/10. Кузнецово/для сайта/IMG-20241112-WA0060.jpg",
+      "source_size": 159690,
+      "source_mime": "image/jpeg",
+      "source_sha256": "388e6c175db508d69aa604006b7c788e75061f125efe90ac689257bb7caa3b71",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "web_size": 182846,
+      "web_mime": "image/jpeg",
+      "web_sha256": "0b641640b87771baf021c2f58587c88a8d0725f3df867a4e579fdf8d1a7fdea3",
+      "web_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "IMG-20241112-WA0062.jpg",
+      "source_path": "фото/10. Кузнецово/для сайта/IMG-20241112-WA0062.jpg",
+      "source_size": 179816,
+      "source_mime": "image/jpeg",
+      "source_sha256": "c05a1f7308b45b77a1ef245f36bcb0b0a9166e1651782c32b7af5d15add9e3a7",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 203597,
+      "web_mime": "image/jpeg",
+      "web_sha256": "24d2cfa93f1ddf4656c3af78c6a84f6fc3fe89f56320c44946aa1f7daf004d47",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "IMG-20240620-WA0051.jpg",
+      "source_path": "фото/10. Кузнецово/для сайта/IMG-20240620-WA0051.jpg",
+      "source_size": 136395,
+      "source_mime": "image/jpeg",
+      "source_sha256": "8998fb51c1cfc59d0e1a3bb4ed3a331c7430c25b44848e65b6b9ceac160c0157",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 154844,
+      "web_mime": "image/jpeg",
+      "web_sha256": "d82664e716e82f99d9821fe4a6338664a815394022654af52d0e08f689fa29b5",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "IMG-20240620-WA0046.jpg",
+      "source_path": "фото/10. Кузнецово/для сайта/IMG-20240620-WA0046.jpg",
+      "source_size": 136091,
+      "source_mime": "image/jpeg",
+      "source_sha256": "ebc8116fa95304f6429366cc881c4b08a55557b5f4ba347497737cf3724e03c3",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 154404,
+      "web_mime": "image/jpeg",
+      "web_sha256": "0556dc69ce2e15848e8c1922c8435d62569226cb6d431d1385286f08793fddc7",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "06.jpg",
+      "source_name": "IMG-20241112-WA0071.jpg",
+      "source_path": "фото/10. Кузнецово/для сайта/IMG-20241112-WA0071.jpg",
+      "source_size": 147464,
+      "source_mime": "image/jpeg",
+      "source_sha256": "f460639410695886309b5ad8b58f5816e9f1c3204009f59a9bf89564a7de253a",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 168147,
+      "web_mime": "image/jpeg",
+      "web_sha256": "15b790c7fe5d7bdcb67b93191db0a779b56ebce93f30af8672305fb3e1081e7d",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "07.jpg",
+      "source_name": "IMG-20241112-WA0070.jpg",
+      "source_path": "фото/10. Кузнецово/для сайта/IMG-20241112-WA0070.jpg",
+      "source_size": 187517,
+      "source_mime": "image/jpeg",
+      "source_sha256": "22dcd8f4da238c4d9d7435cedb49e0eaf836d3a175cbfc98ed2928ecaa69c865",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 213722,
+      "web_mime": "image/jpeg",
+      "web_sha256": "ab7fa34ec4c3ce372140d628b0f17e5c04f5442f7f80394489309c000ffc77f6",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}
