@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "02-oktyabrskaya",
+  "object_title": "Многоквартирный дом и паркинг на Октябрьской набережной",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "PHOTO-2020-09-16-10-25-57.jpg",
+      "source_path": "фото/2. Фото паркинг Октябрьская наб/Фото монтажа/для сайта/PHOTO-2020-09-16-10-25-57.jpg",
+      "source_size": 65405,
+      "source_mime": "image/jpeg",
+      "source_sha256": "4470abf04ded240d51b047ad5b634562c29e44bf5027a30f291a2006d85bffb7",
+      "source_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "web_size": 74448,
+      "web_mime": "image/jpeg",
+      "web_sha256": "54ce53b1fcb285ca9830049a9a84ba7cd6360b0a394ae8ff901f2d0e35bf6cf6",
+      "web_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "PHOTO-2020-09-16-10-25-56.jpg",
+      "source_path": "фото/2. Фото паркинг Октябрьская наб/Фото монтажа/для сайта/PHOTO-2020-09-16-10-25-56.jpg",
+      "source_size": 53436,
+      "source_mime": "image/jpeg",
+      "source_sha256": "2983ef18dc696bbe05f76bbd39d8cc30c594d5650514495058d8dfae0ee3c640",
+      "source_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "web_size": 61191,
+      "web_mime": "image/jpeg",
+      "web_sha256": "9431bfffd5103ba916ea6fa6f8ab4b110d97329fb4ecf27b04f39a56c6a4f59b",
+      "web_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "PHOTO-2020-09-16-10-25-57_1.jpg",
+      "source_path": "фото/2. Фото паркинг Октябрьская наб/Фото монтажа/для сайта/PHOTO-2020-09-16-10-25-57_1.jpg",
+      "source_size": 54818,
+      "source_mime": "image/jpeg",
+      "source_sha256": "71e689c19b5f06e0e14caf7a6cd1fe6ffa89b69be734e5ac6d3ac6519265aa50",
+      "source_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "web_size": 62347,
+      "web_mime": "image/jpeg",
+      "web_sha256": "a702ec7669fc343c925e476638cfcb5f63923150ef4bc88692ec9cbf926f24a0",
+      "web_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "PHOTO-2020-09-16-10-25-57_2.jpg",
+      "source_path": "фото/2. Фото паркинг Октябрьская наб/Фото монтажа/для сайта/PHOTO-2020-09-16-10-25-57_2.jpg",
+      "source_size": 61171,
+      "source_mime": "image/jpeg",
+      "source_sha256": "4c69c825b7360a206279a2c5cdd7f0545ab3483f3e9a48d6b2056b990aa5d9e9",
+      "source_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "web_size": 70256,
+      "web_mime": "image/jpeg",
+      "web_sha256": "f9fd8795f5139dadada5171c9be3d499be015647e3bc1ac6a9f89bfbf5af1989",
+      "web_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "PHOTO-2020-09-10-16-04-10.jpg",
+      "source_path": "фото/2. Фото паркинг Октябрьская наб/Фото монтажа/для сайта/PHOTO-2020-09-10-16-04-10.jpg",
+      "source_size": 59467,
+      "source_mime": "image/jpeg",
+      "source_sha256": "3ed6a9bc01fe48331574315592e051465b9aae5b2cda900d957d1ef3575cac0b",
+      "source_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "web_size": 69276,
+      "web_mime": "image/jpeg",
+      "web_sha256": "2d9985b0ed589513b9d2834603c17dccf3f42797e9eb3b72cf897ff7d8e106ea",
+      "web_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "06.jpg",
+      "source_name": "PHOTO-2020-09-10-16-04-10 (1).jpg",
+      "source_path": "фото/2. Фото паркинг Октябрьская наб/Фото монтажа/для сайта/PHOTO-2020-09-10-16-04-10 (1).jpg",
+      "source_size": 103253,
+      "source_mime": "image/jpeg",
+      "source_sha256": "84749a26aee33714a96136ce4ec3786dfc82a7d15dc7311d9b3124fcbb4fbe39",
+      "source_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "web_size": 118003,
+      "web_mime": "image/jpeg",
+      "web_sha256": "48b9713926e2d040742d0ec25453d1a019dc34ff9e59f689b08137c652c310de",
+      "web_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "07.jpg",
+      "source_name": "PHOTO-2020-09-16-10-25-58.jpg",
+      "source_path": "фото/2. Фото паркинг Октябрьская наб/Фото монтажа/для сайта/PHOTO-2020-09-16-10-25-58.jpg",
+      "source_size": 39810,
+      "source_mime": "image/jpeg",
+      "source_sha256": "d82251635c92f94206cb06e5c0e9799e9e04300ad734ededcff500e89691fd82",
+      "source_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "web_size": 44888,
+      "web_mime": "image/jpeg",
+      "web_sha256": "f7a8321e5c7e66749a740927fcfae61e1e53189a4c2c5a362924ba9638edf5d8",
+      "web_dimensions": {
+        "width": 780,
+        "height": 1040
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

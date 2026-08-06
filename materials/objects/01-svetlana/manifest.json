@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "01-svetlana",
+  "object_title": "Производственные помещения завода «Светлана»",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "PHOTO-2019-08-29-15-54-59.jpg",
+      "source_path": "фото/1. Фото Оптосенс 2021/Фото монтажей/для сайта/PHOTO-2019-08-29-15-54-59.jpg",
+      "source_size": 109381,
+      "source_mime": "image/jpeg",
+      "source_sha256": "dc509696778acd62dc0b6ab68b642b9bb0766015fc50014391333362ec70bf7c",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "web_size": 121211,
+      "web_mime": "image/jpeg",
+      "web_sha256": "b8cc29c9d75a5c27cea26ee5e56faf4095dacc298eed10e234deb22c52cbb25f",
+      "web_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "PHOTO-2019-08-29-15-55-00.jpg",
+      "source_path": "фото/1. Фото Оптосенс 2021/Фото монтажей/для сайта/PHOTO-2019-08-29-15-55-00.jpg",
+      "source_size": 120309,
+      "source_mime": "image/jpeg",
+      "source_sha256": "18de8fac1de968550beacf7f3ea4fbf0992d76169b0a65153c48286751aca748",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "web_size": 134621,
+      "web_mime": "image/jpeg",
+      "web_sha256": "6333bb961e60ead4ad591fdb51082b153d351aa7c09919b01fe1c97ef398a3c0",
+      "web_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "PHOTO-2019-09-16-08-09-40.jpg",
+      "source_path": "фото/1. Фото Оптосенс 2021/Фото монтажей/для сайта/PHOTO-2019-09-16-08-09-40.jpg",
+      "source_size": 104259,
+      "source_mime": "image/jpeg",
+      "source_sha256": "a921e28e9ece205cf7c69466559bb75597a47da809793df9ec46eb0a19ab02ae",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "web_size": 117590,
+      "web_mime": "image/jpeg",
+      "web_sha256": "73f9abd24ef9189d6f3b1d7e9d9fb95685257b28fa990207a69261281f9e17f6",
+      "web_dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "PHOTO-2019-10-23-18-48-25.jpg",
+      "source_path": "фото/1. Фото Оптосенс 2021/Фото монтажей/для сайта/PHOTO-2019-10-23-18-48-25.jpg",
+      "source_size": 111922,
+      "source_mime": "image/jpeg",
+      "source_sha256": "b7994c832e92c8b222274f450b573c0789cec8a0a015c6906fcee4119c0f9043",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 125239,
+      "web_mime": "image/jpeg",
+      "web_sha256": "6dce793b3700949118a85cd81a69302fcdc88d3d3251935c8b09af30f16140e5",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "PHOTO-2019-08-31-18-28-39.jpg",
+      "source_path": "фото/1. Фото Оптосенс 2021/Фото монтажей/для сайта/PHOTO-2019-08-31-18-28-39.jpg",
+      "source_size": 152907,
+      "source_mime": "image/jpeg",
+      "source_sha256": "c243cc5f18f3f9c81cc9322dbc50c60057f704a8229d10717b03001f53a6aaca",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 170003,
+      "web_mime": "image/jpeg",
+      "web_sha256": "8b9ba09453b326284c281f9d024884b2ae812db3300c7d846f29c54e06228199",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "06.jpg",
+      "source_name": "PHOTO-2019-10-23-18-48-24.jpg",
+      "source_path": "фото/1. Фото Оптосенс 2021/Фото монтажей/для сайта/PHOTO-2019-10-23-18-48-24.jpg",
+      "source_size": 125467,
+      "source_mime": "image/jpeg",
+      "source_sha256": "4e4c58f6a1e27545644aac98146255d098e3a6bfe81de8b85e06c7d813f9bafa",
+      "source_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "web_size": 139290,
+      "web_mime": "image/jpeg",
+      "web_sha256": "7d98a0ff2e09034c6486daea33f190b12b013909ce92cf8aff622009198882c2",
+      "web_dimensions": {
+        "width": 960,
+        "height": 1280
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "object_id": "04-nevskiy",
+  "object_title": "Кальянный бар на Невском проспекте",
+  "source_archive": "фото.zip",
+  "git_contract": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "files": [
+    {
+      "file": "01.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.21.10 (2).jpeg",
+      "source_path": "фото/4. Фото монтажа кальянная/Фото монтажа/для сайта/WhatsApp Image 2022-08-05 at 13.21.10 (2).jpeg",
+      "source_size": 76150,
+      "source_mime": "image/jpeg",
+      "source_sha256": "c0024573815893a680bd0d76ec1ad7549e8fe252e47d2a3427a086d0b7869ed8",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "web_size": 86409,
+      "web_mime": "image/jpeg",
+      "web_sha256": "eb31d63c3be68c5dba111f7a97b4ad1f669599ba9df325aa4e348fe8367b877c",
+      "web_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "02.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.21.11 (2).jpeg",
+      "source_path": "фото/4. Фото монтажа кальянная/Фото монтажа/для сайта/WhatsApp Image 2022-08-05 at 13.21.11 (2).jpeg",
+      "source_size": 95239,
+      "source_mime": "image/jpeg",
+      "source_sha256": "e87909a3136b9182ac179224505d490207e9e6aad2bce80af1e2a9fe1e60fd7f",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "web_size": 108013,
+      "web_mime": "image/jpeg",
+      "web_sha256": "d0c10f88c8f4ad7c1f717e02b3ff6b9711a5e23c6f63911d4b54c24c1e276ef2",
+      "web_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "03.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.23.35 (9).jpeg",
+      "source_path": "фото/4. Фото монтажа кальянная/Фото монтажа/для сайта/WhatsApp Image 2022-08-05 at 13.23.35 (9).jpeg",
+      "source_size": 72625,
+      "source_mime": "image/jpeg",
+      "source_sha256": "745a0844aee584c7aeb595cf8e8a6eb23780716fe75bfd8af701cbc33d3b7024",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "web_size": 83388,
+      "web_mime": "image/jpeg",
+      "web_sha256": "690742ce2472231e41027dab1891fce4e0dfa3fdb6fe005f434f89fc1c9c1c90",
+      "web_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "04.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.25.30 (3).jpeg",
+      "source_path": "фото/4. Фото монтажа кальянная/Фото монтажа/для сайта/WhatsApp Image 2022-08-05 at 13.25.30 (3).jpeg",
+      "source_size": 104906,
+      "source_mime": "image/jpeg",
+      "source_sha256": "92a6c122a88db0d8d79f0c173229caaee005258326b034b73424e4f5b0f01520",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "web_size": 118829,
+      "web_mime": "image/jpeg",
+      "web_sha256": "64cd24d0bf1eef983419cfe1bdb10a29f9b7ec0cc3d44f13f494f7ef1d80bc66",
+      "web_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery",
+      "duplicate_source_sha256": true,
+      "duplicate_locations": [
+        {
+          "object_id": "05-retinoidy",
+          "source_path": "фото/5. Фото Ретиноиды/для сайта 2/WhatsApp Image 2022-08-05 at 13.25.30 (3).jpeg"
+        }
+      ]
+    },
+    {
+      "file": "05.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.21.11 (10).jpeg",
+      "source_path": "фото/4. Фото монтажа кальянная/Фото монтажа/для сайта/WhatsApp Image 2022-08-05 at 13.21.11 (10).jpeg",
+      "source_size": 71663,
+      "source_mime": "image/jpeg",
+      "source_sha256": "a060634f950b1f006edb6218a79643e1fa7764fbfdfb8f472858ff38a545c622",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "web_size": 81558,
+      "web_mime": "image/jpeg",
+      "web_sha256": "10b6b3d8e51f871bbbe7ea3a5da21eec04ff8193e438ca5e4884426967e19ee8",
+      "web_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    },
+    {
+      "file": "06.jpg",
+      "source_name": "WhatsApp Image 2022-08-05 at 13.25.30 (19).jpeg",
+      "source_path": "фото/4. Фото монтажа кальянная/Фото монтажа/для сайта/WhatsApp Image 2022-08-05 at 13.25.30 (19).jpeg",
+      "source_size": 76951,
+      "source_mime": "image/jpeg",
+      "source_sha256": "5a8e017d6a59bdd962882bfd069d61a44005bc2bfd606977a0b6c59ee3a18bb5",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "web_size": 87602,
+      "web_mime": "image/jpeg",
+      "web_sha256": "0f6a58dc6a19b9cedb0ba2d2e088314c80b09cbec6bdc7acdba13b228a69875f",
+      "web_dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "jpeg_quality": 84,
+      "purpose": "website_case_gallery"
+    }
+  ]
+}

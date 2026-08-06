@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project_id": "barella.ru",
+  "source_archive": "фото.zip",
+  "objects": [
+    {
+      "object_id": "01-svetlana",
+      "title": "Производственные помещения завода «Светлана»",
+      "image_count": 6,
+      "web_bytes": 807954
+    },
+    {
+      "object_id": "02-oktyabrskaya",
+      "title": "Многоквартирный дом и паркинг на Октябрьской набережной",
+      "image_count": 7,
+      "web_bytes": 500409
+    },
+    {
+      "object_id": "03-vertical",
+      "title": "Апарт-отель VERTICAL",
+      "image_count": 6,
+      "web_bytes": 535904
+    },
+    {
+      "object_id": "04-nevskiy",
+      "title": "Кальянный бар на Невском проспекте",
+      "image_count": 6,
+      "web_bytes": 565799
+    },
+    {
+      "object_id": "05-retinoidy",
+      "title": "Производственное помещение АО «Ретиноиды»",
+      "image_count": 5,
+      "web_bytes": 479945
+    },
+    {
+      "object_id": "06-polisan-ampoule",
+      "title": "ПОЛИСАН — чистое помещение новой ампульной линии",
+      "image_count": 7,
+      "web_bytes": 1605106
+    },
+    {
+      "object_id": "07-pskov-lines",
+      "title": "Кабельное производство в Пскове — производственные линии и покрасочная камера",
+      "image_count": 16,
+      "web_bytes": 4965588
+    },
+    {
+      "object_id": "08-pskov-galvanic",
+      "title": "Кабельное производство в Пскове — дробеструйная камера и цех гальваники",
+      "image_count": 5,
+      "web_bytes": 1434805
+    },
+    {
+      "object_id": "09-polisan-package",
+      "title": "ПОЛИСАН — чистое помещение второй пакетной линии",
+      "image_count": 5,
+      "web_bytes": 1911050
+    },
+    {
+      "object_id": "10-rublevo-arkhangelskoe",
+      "title": "Энергоцентр «Рублево-Архангельское»",
+      "image_count": 7,
+      "web_bytes": 1215681
+    }
+  ],
+  "total_images": 70,
+  "total_web_bytes": 14022241,
+  "limits": {
+    "max_object_bytes": 20000000,
+    "max_project_bytes": 100000000,
+    "max_edge_px": 2048
+  },
+  "duplicates": [
+    {
+      "sha256": "92a6c122a88db0d8d79f0c173229caaee005258326b034b73424e4f5b0f01520",
+      "locations": [
+        {
+          "object_id": "04-nevskiy",
+          "source_path": "фото/4. Фото монтажа кальянная/Фото монтажа/для сайта/WhatsApp Image 2022-08-05 at 13.25.30 (3).jpeg"
+        },
+        {
+          "object_id": "05-retinoidy",
+          "source_path": "фото/5. Фото Ретиноиды/для сайта 2/WhatsApp Image 2022-08-05 at 13.25.30 (3).jpeg"
+        }
+      ]
+    }
+  ]
+}
