@@ -22,4 +22,21 @@ curl -fsSL https://barella.sy3.ru/kontakty/   | grep -F "Полюстровск�
 curl -fsSL https://barella.sy3.ru/kontakty/   | grep -F "+7 (921) 416-46-46"
 ```
 
-Визуальные замечания: фото объектов и руководителей — аккуратные placeholder-блоки (`Фото объекта — добавляется отдельной задачей оператора`); мобильная вёрстка — media queries на 900px и 600px в `style.css`.
+## TASK-ISSUE-SUYAZOV_BARELLA.RU-537 — объект «Светлана» на /obekty/
+
+| URL | Проверка |
+|---|---|
+| `/obekty/` | присутствует `Производственные помещения на территории завода «Светлана»` |
+| `/obekty/` | присутствует `ООО «Оптосенс»` |
+| `/obekty/` | присутствует `пр. Энгельса, д. 27, литера АД` |
+| `/obekty/` | отсутствует `Фото объекта — добавляется отдельной задачей оператора` |
+| `/obekty/` | ровно 6 фото галереи из `assets/img/objects/01-svetlana/` (01.jpg…06.jpg) отдаются с HTTP 200 |
+
+```bash
+curl -fsSL https://barella.sy3.ru/obekty/ | grep -F "Производственные помещения на территории завода «Светлана»"
+curl -fsSL https://barella.sy3.ru/obekty/ | grep -F "ООО «Оптосенс»"
+curl -fsSL https://barella.sy3.ru/obekty/ | grep -F "пр. Энгельса, д. 27, литера АД"
+! curl -fsSL https://barella.sy3.ru/obekty/ | grep -F "Фото объекта — добавляется отдельной задачей оператора"
+```
+
+Визуальные замечания: у объектов без фото — аккуратные placeholder-блоки (`Фото объекта — публикуется после согласования`); мобильная вёрстка — media queries на 900px и 600px в `style.css`.
