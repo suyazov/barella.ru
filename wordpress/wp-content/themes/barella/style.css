@@ -3,7 +3,7 @@ Theme Name: Barella
 Theme URI: https://barella.ru/
 Author: Barella
 Description: Корпоративная тема barella.ru — инженерная компания: вентиляция, кондиционирование, отопление. Staging-инкремент (профиль wordpress-staging).
-Version: 0.1.0
+Version: 0.2.0
 License: Proprietary
 Text Domain: barella
 */
@@ -45,7 +45,7 @@ a {
 }
 
 .container {
-	max-width: 1120px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
@@ -249,75 +249,98 @@ a {
 	padding: 16px;
 }
 
-/* Featured object (full case with cover and gallery) */
-.object-feature h2 {
+/* Object page: overview info block (Адрес / Заказчик / Предмет работ) */
+.object-overview {
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.object-info {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 20px;
+	margin: 0;
+}
+
+.object-info__item {
+	background: var(--barella-white);
+	border: 1px solid var(--barella-line);
+	border-top: 4px solid var(--barella-blue);
+	border-radius: 8px;
+	padding: 20px 22px 22px;
+}
+
+.object-info__item dt {
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--barella-blue-dark);
+	margin: 0 0 6px;
+}
+
+.object-info__item dd {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Object page: выполненные работы checklist */
+.object-works {
+	margin-top: 40px;
+}
+
+.object-works h2 {
+	font-size: 28px;
+	margin: 0 0 20px;
+}
+
+.object-works__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 12px 32px;
+}
+
+.object-works__list li {
+	position: relative;
+	padding-left: 34px;
+	line-height: 1.5;
+}
+
+.object-works__list li::before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	top: 1px;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: var(--barella-blue);
+	color: var(--barella-white);
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: center;
+}
+
+/* Object page: uniform photo gallery */
+.object-gallery-section h2 {
 	font-size: 28px;
 	margin: 0 0 24px;
 }
 
-.object-feature__layout {
-	display: grid;
-	grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
-	gap: 24px;
-	align-items: start;
-}
-
-.object-feature__cover {
-	margin: 0;
-	border-radius: 8px;
-	overflow: hidden;
-	border: 1px solid var(--barella-line);
-	background: var(--barella-white);
-}
-
-.object-feature__cover img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.object-feature__facts {
-	background: var(--barella-white);
-	border: 1px solid var(--barella-line);
-	border-radius: 8px;
-	padding: 20px 24px 24px;
-}
-
-.object-feature__meta {
-	list-style: none;
-	margin: 0 0 16px;
-	padding: 0;
-}
-
-.object-feature__meta li {
-	margin-bottom: 12px;
-}
-
-.object-feature__meta strong {
-	display: block;
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 0.06em;
-	color: var(--barella-muted);
-	margin-bottom: 2px;
-}
-
-.object-feature__works {
-	margin: 0;
-	padding-left: 20px;
-}
-
 .object-gallery {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 12px;
-	margin-top: 24px;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 16px;
 }
 
 .object-gallery__item {
 	margin: 0;
-	border-radius: 8px;
+	border-radius: 10px;
 	overflow: hidden;
 	border: 1px solid var(--barella-line);
 	background: var(--barella-white);
@@ -329,6 +352,11 @@ a {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	transition: transform 0.25s ease;
+}
+
+.object-gallery__item:hover img {
+	transform: scale(1.03);
 }
 
 /* Object catalog cards */
@@ -346,6 +374,17 @@ a {
 .object-card:hover {
 	box-shadow: 0 10px 28px rgba(11, 95, 165, 0.14);
 	transform: translateY(-2px);
+}
+
+.object-card:focus-visible {
+	outline: 3px solid var(--barella-blue);
+	outline-offset: 2px;
+}
+
+.object-card:hover .object-card__more,
+.object-card:focus-visible .object-card__more {
+	color: var(--barella-blue-dark);
+	text-decoration: underline;
 }
 
 .object-card__cover {
@@ -413,16 +452,35 @@ a {
 }
 
 .hero--object {
-	padding: 48px 0;
+	padding: 56px 0;
 }
 
-.object-feature__works-title {
-	font-size: 20px;
-	margin: 0 0 8px;
+.hero--object h1 {
+	max-width: 900px;
+	font-size: 36px;
+	line-height: 1.25;
+}
+
+.hero__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 0;
+}
+
+.hero__meta-item {
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.14);
+	border: 1px solid rgba(255, 255, 255, 0.35);
+	border-radius: 999px;
+	padding: 6px 16px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
 }
 
 .object-back {
-	margin: 24px 0 0;
+	margin: 28px 0 0;
 }
 
 .object-back a {
@@ -557,10 +615,25 @@ a {
 	background: linear-gradient(135deg, var(--barella-blue-dark), var(--barella-blue));
 	color: var(--barella-white);
 	text-align: center;
+	padding: 72px 0;
 }
 
 .cta h2 {
 	color: var(--barella-white);
+	font-size: 32px;
+	margin: 0 0 12px;
+}
+
+.cta p {
+	font-size: 18px;
+	max-width: 640px;
+	margin: 0 auto 28px;
+	opacity: 0.95;
+}
+
+.cta .btn {
+	padding: 16px 34px;
+	font-size: 17px;
 }
 
 /* Footer */
@@ -600,16 +673,20 @@ a {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.object-feature__layout {
+	.object-info {
 		grid-template-columns: 1fr;
 	}
 
 	.object-gallery {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 
 	.hero h1 {
 		font-size: 32px;
+	}
+
+	.hero--object h1 {
+		font-size: 30px;
 	}
 }
 
@@ -625,7 +702,12 @@ a {
 		grid-template-columns: 1fr;
 	}
 
-	.object-feature h2 {
+	.object-works__list {
+		grid-template-columns: 1fr;
+	}
+
+	.object-works h2,
+	.object-gallery-section h2 {
 		font-size: 22px;
 	}
 
@@ -635,6 +717,10 @@ a {
 
 	.hero h1 {
 		font-size: 26px;
+	}
+
+	.hero--object h1 {
+		font-size: 24px;
 	}
 
 	.hero p {
