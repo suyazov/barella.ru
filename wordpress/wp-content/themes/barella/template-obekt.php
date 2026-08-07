@@ -24,8 +24,6 @@ if ( ! $barella_object ) {
 	exit;
 }
 
-$barella_cover       = $barella_object['photos'][0];
-$barella_gallery     = array_slice( $barella_object['photos'], 1 );
 $barella_photos_base = get_template_directory_uri() . '/assets/img/objects/' . $barella_object['id'] . '/';
 
 get_header();
@@ -34,50 +32,59 @@ get_header();
 	<section class="hero hero--object">
 		<div class="container">
 			<nav class="breadcrumbs" aria-label="Хлебные крошки">
-				<a href="<?php echo esc_url( home_url( '/obekty/' ) ); ?>">Наши объекты</a>
+				<a href="<?php echo esc_url( home_url( '/obekty/' ) ); ?>">Все объекты</a>
 				<span aria-hidden="true">/</span>
 				<span><?php echo esc_html( $barella_object['title'] ); ?></span>
 			</nav>
 			<h1><?php echo esc_html( $barella_object['title'] ); ?></h1>
-			<p><?php echo esc_html( $barella_object['city'] ); ?> · <?php echo esc_html( $barella_object['scope'] ); ?></p>
+			<p class="hero__meta">
+				<span class="hero__meta-item"><?php echo esc_html( $barella_object['city'] ); ?></span>
+				<span class="hero__meta-item"><?php echo esc_html( $barella_object['scope'] ); ?></span>
+			</p>
 		</div>
 	</section>
 
-	<section class="section section--alt object-feature">
+	<section class="section object-overview">
 		<div class="container">
-			<div class="object-feature__layout">
-				<figure class="object-feature__cover">
-					<img src="<?php echo esc_url( $barella_photos_base . $barella_cover['file'] ); ?>"
-						width="<?php echo esc_attr( $barella_cover['width'] ); ?>"
-						height="<?php echo esc_attr( $barella_cover['height'] ); ?>"
-						alt="<?php echo esc_attr( $barella_cover['alt'] ); ?>" loading="lazy" />
-				</figure>
-				<div class="object-feature__facts">
-					<ul class="object-feature__meta">
-						<li><strong>Адрес</strong><?php echo esc_html( $barella_object['address'] ); ?></li>
-						<li><strong>Заказчик</strong><?php echo esc_html( $barella_object['customer'] ); ?></li>
-						<li><strong>Предмет работ</strong><?php echo esc_html( $barella_object['subject'] ); ?></li>
-					</ul>
-					<h2 class="object-feature__works-title">Выполненные работы</h2>
-					<ul class="object-feature__works">
-						<?php foreach ( $barella_object['works'] as $barella_work ) : ?>
-							<li><?php echo esc_html( $barella_work ); ?></li>
-						<?php endforeach; ?>
-					</ul>
+			<dl class="object-info">
+				<div class="object-info__item">
+					<dt>Адрес</dt>
+					<dd><?php echo esc_html( $barella_object['address'] ); ?></dd>
 				</div>
-			</div>
-			<?php if ( $barella_gallery ) : ?>
-				<div class="object-gallery">
-					<?php foreach ( $barella_gallery as $barella_photo ) : ?>
-						<figure class="object-gallery__item">
-							<img src="<?php echo esc_url( $barella_photos_base . $barella_photo['file'] ); ?>"
-								width="<?php echo esc_attr( $barella_photo['width'] ); ?>"
-								height="<?php echo esc_attr( $barella_photo['height'] ); ?>"
-								alt="<?php echo esc_attr( $barella_photo['alt'] ); ?>" loading="lazy" />
-						</figure>
+				<div class="object-info__item">
+					<dt>Заказчик</dt>
+					<dd><?php echo esc_html( $barella_object['customer'] ); ?></dd>
+				</div>
+				<div class="object-info__item">
+					<dt>Предмет работ</dt>
+					<dd><?php echo esc_html( $barella_object['subject'] ); ?></dd>
+				</div>
+			</dl>
+
+			<div class="object-works">
+				<h2>Выполненные работы</h2>
+				<ul class="object-works__list">
+					<?php foreach ( $barella_object['works'] as $barella_work ) : ?>
+						<li><?php echo esc_html( $barella_work ); ?></li>
 					<?php endforeach; ?>
-				</div>
-			<?php endif; ?>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--alt object-gallery-section">
+		<div class="container">
+			<h2>Фотографии объекта</h2>
+			<div class="object-gallery">
+				<?php foreach ( $barella_object['photos'] as $barella_photo ) : ?>
+					<figure class="object-gallery__item">
+						<img src="<?php echo esc_url( $barella_photos_base . $barella_photo['file'] ); ?>"
+							width="<?php echo esc_attr( $barella_photo['width'] ); ?>"
+							height="<?php echo esc_attr( $barella_photo['height'] ); ?>"
+							alt="<?php echo esc_attr( $barella_photo['alt'] ); ?>" loading="lazy" />
+					</figure>
+				<?php endforeach; ?>
+			</div>
 			<p class="object-back"><a href="<?php echo esc_url( home_url( '/obekty/' ) ); ?>">← Все объекты</a></p>
 		</div>
 	</section>
