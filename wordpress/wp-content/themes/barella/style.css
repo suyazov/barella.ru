@@ -331,33 +331,103 @@ a {
 	object-fit: cover;
 }
 
-/* Cases */
-.case {
+/* Object catalog cards */
+.object-card {
+	display: block;
 	background: var(--barella-white);
 	border: 1px solid var(--barella-line);
 	border-radius: 8px;
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
+	text-decoration: none;
+	color: inherit;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.case__body {
-	padding: 20px 24px 24px;
+.object-card:hover {
+	box-shadow: 0 10px 28px rgba(11, 95, 165, 0.14);
+	transform: translateY(-2px);
 }
 
-.case__title {
-	margin: 0 0 8px;
-	font-size: 19px;
+.object-card__cover {
+	display: block;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	background: var(--barella-bg);
 }
 
-.case__meta {
+.object-card__cover img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.object-card__body {
+	display: block;
+	padding: 18px 20px 20px;
+}
+
+.object-card__title {
+	display: block;
+	margin: 0 0 6px;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.35;
+	color: var(--barella-ink);
+}
+
+.object-card__meta {
+	display: block;
+	margin: 0;
 	color: var(--barella-muted);
 	font-size: 14px;
-	margin: 0 0 10px;
 }
 
-.case__text {
-	margin: 0;
+.object-card__more {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--barella-blue);
+}
+
+/* Object page */
+.breadcrumbs {
+	font-size: 14px;
+	margin: 0 0 12px;
+	opacity: 0.9;
+}
+
+.breadcrumbs a {
+	color: var(--barella-white);
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.breadcrumbs span {
+	margin-left: 6px;
+}
+
+.breadcrumbs span[aria-hidden="true"] {
+	margin: 0 6px;
+}
+
+.hero--object {
+	padding: 48px 0;
+}
+
+.object-feature__works-title {
+	font-size: 20px;
+	margin: 0 0 8px;
+}
+
+.object-back {
+	margin: 24px 0 0;
+}
+
+.object-back a {
+	font-weight: 600;
+	text-decoration: none;
 }
 
 /* Team */
