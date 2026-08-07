@@ -12,6 +12,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+require get_template_directory() . '/inc/objects-data.php';
+
 /**
  * Theme setup: menus, title tag, thumbnails.
  */
@@ -82,9 +84,60 @@ function barella_after_switch_theme() {
 		}
 	}
 
+	barella_bootstrap_object_pages();
+
 	flush_rewrite_rules();
 }
 add_action( 'after_switch_theme', 'barella_after_switch_theme' );
+
+/**
+ * Idempotently create the 10 object pages as children of `obekty`
+ * and assign the object template plus the canonical object id.
+ */
+function barella_bootstrap_object_pages() {
+	$parent = get_page_by_path( 'obekty' );
+	if ( ! $parent ) {
+		return;
+	}
+
+	foreach ( barella_objects_data() as $barella_object ) {
+		$page = get_page_by_path( 'obekty/' . $barella_object['slug'] );
+		if ( $page ) {
+			$page_id = $page->ID;
+		} else {
+			$page_id = wp_insert_post(
+				array(
+					'post_type'    => 'page',
+					'post_status'  => 'publish',
+					'post_name'    => $barella_object['slug'],
+					'post_parent'  => $parent->ID,
+					'post_title'   => $barella_object['title'],
+					'post_content' => '',
+				)
+			);
+		}
+		if ( $page_id && ! is_wp_error( $page_id ) ) {
+			update_post_meta( $page_id, '_wp_page_template', 'template-obekt.php' );
+			update_post_meta( $page_id, 'barella_object_id', $barella_object['id'] );
+		}
+	}
+}
+
+/**
+ * Ensure the object pages exist even when the theme was not re-activated
+ * after deploy (staging already runs this theme). Cheap front-end check:
+ * one get_page_by_path() per request, inserts only when missing.
+ */
+function barella_ensure_object_pages() {
+	if ( is_admin() || wp_doing_ajax() ) {
+		return;
+	}
+	if ( get_page_by_path( 'obekty/svetlana' ) ) {
+		return;
+	}
+	barella_bootstrap_object_pages();
+}
+add_action( 'init', 'barella_ensure_object_pages' );
 
 /**
  * Native feedback-form stub handler.
