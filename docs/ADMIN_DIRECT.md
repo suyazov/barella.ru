@@ -40,8 +40,8 @@ Root keys are **exactly** these three — any other root key (e.g. `task_id`,
 
 ## Operations
 
-Every op is an object with `type` equal to exactly `update_page` or
-`update_option`. Unknown keys inside an op are rejected.
+Every op is an object with `type` equal to exactly one of
+`update_page`, `update_option`, `create_page`, `update_menu`. Unknown keys inside an op are rejected.
 
 ### `update_page`
 
@@ -56,6 +56,32 @@ Allowed keys: `type`, `page_id`, `title`, `content`, `template`,
 - `title`, `content`, `template` — strings.
 - `elementor_data`, `elementor_page_settings` — non-empty **JSON encoded as a
   string** (the value is a string containing valid JSON, not an object).
+
+### `create_page` (contract v1.1, connector ≥ 1.1.0)
+
+Creates a NEW published page. Allowed keys: `type`, `title`, `content`,
+`slug`. No others.
+
+- `title`, `content` — required non-empty strings.
+- `slug` — optional, `^[a-z0-9][a-z0-9-]{0,98}$`; must be free on the site
+  (the delivery fails closed at backup before any write if the slug is
+  taken — never overwrite an existing page with create_page).
+
+### `update_menu` (contract v1.1, connector ≥ 1.1.0)
+
+Appends a page link to a nav menu. Allowed keys: `type`, `menu`,
+`page_slug`, `title`. No others.
+
+- `menu` — menu slug matching `^[a-z0-9][a-z0-9-]{0,63}$`, or the literal
+  `auto` (resolves to the single theme-location menu; fails closed when zero
+  or several menus are assigned).
+- `page_slug` — the linked page's slug; either created by an EARLIER
+  `create_page` op in the same change-set, or an already-existing published
+  page (existence enforced at apply time).
+- `title` — required non-empty string (the menu label).
+
+Rollback for created entities: the created page / menu item is force-deleted
+first, then the snapshot restore runs.
 
 ### `update_option`
 
