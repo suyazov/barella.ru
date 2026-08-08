@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "ops": [
+    {
+      "type": "update_page",
+      "page_id": 3329,
+      "content": "<style>\n.bk-contacts{color:#1a1a1a}\n.bk-title{font-size:38px;font-weight:700;text-transform:uppercase;letter-spacing:.02em;margin:0 0 34px;color:#1a1a1a}\n.bk-layout{display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between;align-items:flex-start}\n.bk-info{flex:0 0 45%;min-width:280px}\n.bk-row{display:flex;gap:16px;align-items:flex-start;margin-bottom:28px}\n.bk-icon{flex:0 0 44px;width:44px;height:44px;border:1px solid #870001;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#870001}\n.bk-label{font-size:20px;font-weight:700;margin:0 0 6px;color:#1a1a1a}\n.bk-line{display:block;font-size:16px;line-height:1.6;color:#333;margin-bottom:2px}\n.bk-info a.bk-line{color:#870001;text-decoration:none}\n.bk-info a.bk-line:hover{text-decoration:underline}\n.bk-form-card{flex:0 0 45%;min-width:300px;background:#fff;border:1px solid #e5e5e5;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.08);padding:34px 32px;box-sizing:border-box}\n.bk-form-title{font-size:24px;font-weight:800;letter-spacing:.02em;margin:0 0 8px;color:#1a1a1a}\n.bk-form-sub{font-size:15px;line-height:1.5;color:#666;margin:0 0 22px}\n.bk-form-card input.wpcf7-form-control{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid #d9d9d9;border-radius:6px;font-size:15px;background:#fff;color:#1a1a1a}\n.bk-form-card input.wpcf7-form-control:focus{border-color:#870001;outline:none}\n.bk-form-card .theme-btn{display:inline-block;width:100%;box-sizing:border-box;background:#870001;color:#fff;border:none;border-radius:6px;padding:14px 20px;font-size:16px;font-weight:700;cursor:pointer;text-align:center}\n.bk-form-card .theme-btn:hover{background:#6d0001}\n.bk-form-card .consent-box{font-size:13px;line-height:1.5;color:#666}\n.bk-form-card .consent-box a{color:#870001}\n.bk-form-card .wpcf7-response-output{font-size:14px}\n.bk-map{margin-top:48px}\n.bk-map iframe{display:block;width:100%;max-width:100%;height:420px;border:0}\n@media(max-width:991px){.bk-info,.bk-form-card{flex:0 0 100%}}\n@media(max-width:600px){.bk-title{font-size:28px;margin-bottom:24px}.bk-layout{gap:28px}.bk-form-card{padding:24px 20px}.bk-map{margin-top:36px}.bk-map iframe{height:320px}}\n</style>\n<div class=\"bk-contacts\">\n<h1 class=\"bk-title\">Контакты</h1>\n<div class=\"bk-layout\">\n<div class=\"bk-info\">\n<div class=\"bk-row\">\n<div class=\"bk-icon\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 1 1 18 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg></div>\n<div class=\"bk-body\">\n<p class=\"bk-label\">Адрес:</p>\n<span class=\"bk-line\">г. Санкт-Петербург, Полюстровский пр. 59 литера А</span>\n<span class=\"bk-line\">Москва, Варшавское шоссе, 1с1-2</span>\n</div>\n</div>\n<div class=\"bk-row\">\n<div class=\"bk-icon\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.9.34 1.78.66 2.62a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.46-1.18a2 2 0 0 1 2.11-.45c.84.32 1.72.54 2.62.66A2 2 0 0 1 22 16.92z\"/></svg></div>\n<div class=\"bk-body\">\n<p class=\"bk-label\">Телефон:</p>\n<a class=\"bk-line\" href=\"tel:+79214164646\">+7 (921) 416-46-46</a>\n<a class=\"bk-line\" href=\"tel:+78129513015\">+7 (812) 951-30-15</a>\n</div>\n</div>\n<div class=\"bk-row\">\n<div class=\"bk-icon\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8\"/></svg></div>\n<div class=\"bk-body\">\n<p class=\"bk-label\">E-mail:</p>\n<a class=\"bk-line\" href=\"mailto:info@barella.ru\">info@barella.ru</a>\n</div>\n</div>\n<div class=\"bk-row\">\n<div class=\"bk-icon\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><path d=\"M14 2v6h6\"/><path d=\"M12 18v-6\"/><path d=\"M9 15l3 3 3-3\"/></svg></div>\n<div class=\"bk-body\">\n<p class=\"bk-label\">Реквизиты:</p>\n<a class=\"bk-line\" href=\"https://barella.ru/wp-content/uploads/2023/09/rekvizty-ooo-barella.pdf\" target=\"_blank\" rel=\"noopener\">Скачать</a>\n</div>\n</div>\n</div>\n<div class=\"bk-form-card\">\n<h2 class=\"bk-form-title\">ОСТАВЬТЕ ЗАЯВКУ</h2>\n<p class=\"bk-form-sub\">и мы перезвоним вам в кратчайшее время и проконсультируем по всем вашим вопросам</p>\n[contact-form-7 id=\"845\"]\n</div>\n</div>\n<div class=\"bk-map\">\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7986.273982966323!2d30.370815322739567!3d59.97248095620905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469633cdfca3786d%3A0x55fe82c73c8a4844!2z0J_QvtC70Y7RgdGC0YDQvtCy0YHQutC40Lkg0L_RgC4sIDU50LAsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTUxOTc!5e0!3m2!1sru!2sru!4v1703651911731!5m2!1sru!2sru\" width=\"600\" height=\"450\" style=\"width:100%;border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\" title=\"Карта: Санкт-Петербург, Полюстровский пр. 59\"></iframe>\n</div>\n</div>"
+    }
+  ],
+  "verify": {
+    "checks": [
+      {
+        "path": "/kontakty/",
+        "required_text": [
+          "Контакты",
+          "г. Санкт-Петербург, Полюстровский пр. 59 литера А",
+          "Москва, Варшавское шоссе, 1с1-2",
+          "+7 (921) 416-46-46",
+          "+7 (812) 951-30-15",
+          "info@barella.ru",
+          "Реквизиты:",
+          "ОСТАВЬТЕ ЗАЯВКУ",
+          "wpcf7-f845-p3329"
+        ],
+        "absent_text": [
+          "Давайте обсудим ваш проект",
+          "Форма обратной связи",
+          "#0d6efd",
+          "barella.sy3.ru"
+        ]
+      }
+    ]
+  }
+}
