@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "ops": [
+    {
+      "type": "update_elementor_widgets",
+      "template_id": 2606,
+      "actions": [
+        { "action": "set_widget_link", "element_id": "618c310a", "url": "/o-kompanii/" },
+        { "action": "set_widget_link", "element_id": "be49e5b", "url": "/obekty/" },
+        { "action": "set_widget_link", "element_id": "59989d33", "url": "/kontakty/" }
+      ]
+    }
+  ],
+  "verify": {
+    "checks": [
+      { "path": "/", "required_text": ["О КОМПАНИИ", "ОБЪЕКТЫ", "КОНТАКТЫ"], "absent_text": ["barella.sy3.ru"] },
+      { "path": "/obekty/", "required_text": ["О КОМПАНИИ", "ОБЪЕКТЫ", "КОНТАКТЫ"], "absent_text": ["barella.sy3.ru"] },
+      { "path": "/kontakty/", "required_text": ["О КОМПАНИИ", "ОБЪЕКТЫ", "КОНТАКТЫ"], "absent_text": ["barella.sy3.ru"] }
+    ]
+  }
+}
