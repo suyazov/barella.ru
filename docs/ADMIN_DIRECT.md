@@ -41,7 +41,8 @@ Root keys are **exactly** these three — any other root key (e.g. `task_id`,
 ## Operations
 
 Every op is an object with `type` equal to exactly one of
-`update_page`, `update_option`, `create_page`, `update_menu`. Unknown keys inside an op are rejected.
+`update_page`, `update_option`, `create_page`, `update_menu`,
+`update_elementor_widgets`. Unknown keys inside an op are rejected.
 
 ### `update_page`
 
@@ -91,6 +92,32 @@ Allowed keys: `type`, `key`, `value`. No others.
   actual option allowlist server-side.
 - `value` — required; string, number or boolean (never `null`, never an
   object/array).
+
+### `update_elementor_widgets` (contract v1.3, connector ≥ 1.3.0)
+
+Sets targeted properties on individual widgets inside an Elementor template
+(e.g. a theme-builder header/footer template in `elementor_library`) without
+rewriting the full `elementor_data` document. Allowed keys: `type`,
+`template_id`, `actions`. No others.
+
+- `template_id` — required, positive integer: the numeric post ID of the
+  Elementor template on the client site.
+- `actions` — required array of 1..20 action objects, applied sequentially.
+  Each action object has `action` equal to exactly one action name plus its
+  parameters; unknown keys inside an action are rejected.
+
+Action `set_widget_link`:
+
+- Allowed keys: `action`, `element_id`, `url`. No others.
+- `element_id` — required, non-empty string: the Elementor element ID of the
+  target widget inside the template (e.g. a heading widget's id).
+- `url` — required, non-empty string: the link URL assigned to the widget.
+  Only the widget's link setting is changed; widget text, style and the rest
+  of the template structure are left untouched.
+
+Backup and rollback follow the standard pipeline: the Connector snapshots the
+referenced template before any write, and a snapshot restore runs on any
+apply/live-verify failure.
 
 ## Verify checks (optional)
 
