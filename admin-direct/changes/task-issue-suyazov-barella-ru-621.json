@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "ops": [
+    {
+      "type": "replace_site_url",
+      "old_url": "http://barella.pro",
+      "new_url": "https://barella.pro",
+      "posts": [3235, 3236, 3237, 3238, 3239, 3240, 3241, 3242, 3243, 3244, 3245, 3246, 3247, 3248, 3249, 3250, 3251, 3252]
+    }
+  ],
+  "verify": {
+    "checks": [
+      {
+        "path": "/",
+        "required_text": ["barella"]
+      },
+      {
+        "path": "/obekty/",
+        "required_text": ["Наши объекты"]
+      },
+      {
+        "path": "/kontakty/",
+        "required_text": ["Контакты"]
+      }
+    ]
+  }
+}
