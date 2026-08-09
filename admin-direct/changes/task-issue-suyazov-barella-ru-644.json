@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "ops": [
+    {
+      "type": "update_cf7_form",
+      "form_id": 845,
+      "expected_sha256": "9a271930851bae5857d47bc2653d5cd5b46ab002ed79077b713740c918233372",
+      "recipients": [
+        "2@barella.ru",
+        "5@barella.ru",
+        "barella-spb@yandex.ru"
+      ]
+    },
+    {
+      "type": "update_cf7_form",
+      "form_id": 2562,
+      "expected_sha256": "2236eed8bf9b739ce2d8ba59eb1452583b684967016cbe4e2d4bb0902d5e3a64",
+      "recipients": [
+        "2@barella.ru",
+        "5@barella.ru",
+        "barella-spb@yandex.ru"
+      ]
+    },
+    {
+      "type": "update_cf7_form",
+      "form_id": 3334,
+      "expected_sha256": "e54e5aa3db887b77184b7155e1584fd155865cf020a58008b72b48902b7e5034",
+      "recipients": [
+        "2@barella.ru",
+        "5@barella.ru",
+        "barella-spb@yandex.ru"
+      ]
+    },
+    {
+      "type": "configure_cf7_storage",
+      "expected_sha256": "ffaed1102a9078bbc530ee8049a5baeeb11b0c37de4585688f6c6c3ea803a4c5",
+      "enabled": true,
+      "form_ids": [
+        845,
+        2562,
+        3334
+      ]
+    }
+  ],
+  "verify": {
+    "checks": [
+      {
+        "path": "/o-kompanii/",
+        "required_text": [
+          "Давайте обсудим ваш проект",
+          "Получить бесплатную консультацию"
+        ]
+      },
+      {
+        "path": "/obekty/",
+        "required_text": [
+          "Наши объекты",
+          "Давайте обсудим ваш проект"
+        ]
+      },
+      {
+        "path": "/kontakty/",
+        "required_text": [
+          "Контакты",
+          "Оставьте заявку"
+        ]
+      }
+    ]
+  }
+}
