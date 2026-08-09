@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "ops": [
+    {
+      "type": "update_option",
+      "key": "siteurl",
+      "value": "https://barella.pro"
+    },
+    {
+      "type": "update_option",
+      "key": "home",
+      "value": "https://barella.pro"
+    }
+  ],
+  "verify": {
+    "checks": [
+      {
+        "path": "/",
+        "required_text": ["barella"],
+        "absent_text": ["barella.sy3.ru"]
+      },
+      {
+        "path": "/obekty/",
+        "required_text": ["Наши объекты"],
+        "absent_text": ["barella.sy3.ru"]
+      },
+      {
+        "path": "/kontakty/",
+        "required_text": ["Контакты"],
+        "absent_text": ["barella.sy3.ru"]
+      }
+    ]
+  }
+}
