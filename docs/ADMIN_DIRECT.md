@@ -42,7 +42,8 @@ Root keys are **exactly** these three — any other root key (e.g. `task_id`,
 
 Every op is an object with `type` equal to exactly one of
 `update_page`, `update_option`, `create_page`, `update_menu`,
-`update_elementor_widgets`. Unknown keys inside an op are rejected.
+`update_elementor_widgets`, `replace_site_url`. Unknown keys inside an op are
+rejected.
 
 ### `update_page`
 
@@ -118,6 +119,25 @@ Action `set_widget_link`:
 Backup and rollback follow the standard pipeline: the Connector snapshots the
 referenced template before any write, and a snapshot restore runs on any
 apply/live-verify failure.
+
+### `replace_site_url` (contract v1.5, connector ≥ 1.5.0)
+
+Rewrites absolute URL occurrences from one site base URL to another inside a
+bounded, explicit target set — for example fixing mixed-content leftovers
+(`http://` → `https://`) stored in post content or serialized post meta such
+as WP Font Library `font_face_settings`. Allowed keys: `type`, `old_url`,
+`new_url`, `posts`, `options`. No others.
+
+- `old_url`, `new_url` — required non-empty strings: the exact absolute base
+  URLs to replace (e.g. `http://barella.pro` → `https://barella.pro`).
+- `posts` — required non-empty array of positive integers: the exact post IDs
+  to rewrite. Only these posts are touched.
+- `options` — optional array of option-name strings matching
+  `^[a-z0-9_]{1,64}$`; omit it when no options need rewriting.
+
+Backup and rollback follow the standard pipeline: the Connector snapshots
+every referenced post (and option) before any write, and a snapshot restore
+runs on any apply/live-verify failure.
 
 ## Verify checks (optional)
 
