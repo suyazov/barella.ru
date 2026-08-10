@@ -12,22 +12,21 @@
       {
         "path": "/",
         "required_text": [
-          "bridge-cf7-modal-callback",
-          "bridge-cf7-modal-calculation",
-          "wpcf7-f3334",
-          "wpcf7-f2562",
+          "Бесплатный расчёт стоимости",
+          "Получить бесплатный расчет",
+          "Получить бесплатную консультацию",
           "БЕСПЛАТНЫЙ РАСЧЁТ СТОИМОСТИ"
         ],
         "absent_text": ["Internal Server Error"]
       },
       {
         "path": "/o-kompanii/",
-        "required_text": ["bridge-cf7-modal-callback", "wpcf7-f3334", "Заказать звонок"],
+        "required_text": ["Заказать звонок", "Получить бесплатную консультацию"],
         "absent_text": ["bridge-cf7-modal-calculation", "Internal Server Error"]
       },
       {
         "path": "/obekty/",
-        "required_text": ["bridge-cf7-modal-callback", "wpcf7-f3334", "Заказать звонок"],
+        "required_text": ["Заказать звонок", "Получить бесплатную консультацию"],
         "absent_text": ["bridge-cf7-modal-calculation", "Internal Server Error"]
       }
     ]
