@@ -7,8 +7,8 @@ configures only the connector-owned `bridge_connector_cf7_modal_config` option:
 
 - the two exact `a.book-appointment` triggers on `/`, `/o-kompanii/`, and
   `/obekty/` open existing published CF7 form `3334` in place;
-- the exact homepage `a.banner-btn` trigger opens existing published CF7 form
-  `2562` in place;
+- the exact server-rendered homepage `a.banner-btn` trigger and its responsive
+  client-side copies open existing published CF7 form `2562` in place;
 - trigger class, visible text, path, and match count are all fail-closed;
 - the dialogs are initially hidden, preserve the pathname, never submit a
   form during verification, close by button/backdrop/Escape, return focus,
