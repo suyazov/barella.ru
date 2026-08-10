@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "kind": "wp_admin_direct_operator_correction_receipt",
+  "task_id": "TASK-ISSUE-SUYAZOV_BARELLA.RU-710",
+  "orchestration_id": "3bcf82d10921011a3181b296",
+  "checked_at": "2026-08-10T20:02:10+03:00",
+  "production_touched": true,
+  "scope": {
+    "modal": "callback",
+    "form_id": 3334,
+    "title": "Заполните форму",
+    "subtitle": "Наш инженер свяжется с вами в ближайшее время",
+    "name_placeholder": "Имя"
+  },
+  "safety": {
+    "backup": "/var/lib/bridge-sy9/operator-backups/barella.ru/callback-form-copy.1786381088671.json",
+    "mail_recipients_preserved": true,
+    "mail_configuration_preserved": true,
+    "storage_preserved": true,
+    "honeypot_preserved": true,
+    "cache_clear": "verified"
+  },
+  "browser_acceptance": {
+    "desktop": "passed",
+    "mobile_430x932": "passed",
+    "placeholder_visible": true,
+    "checkbox_visible": true,
+    "horizontal_overflow": false,
+    "form_submitted": false
+  },
+  "result": "verified_done_operator_correction"
+}
