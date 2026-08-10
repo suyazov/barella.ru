@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "kind": "wp_admin_direct_operator_correction_receipt",
+  "task_id": "TASK-ISSUE-SUYAZOV_BARELLA.RU-710",
+  "orchestration_id": "3bcf82d10921011a3181b296",
+  "checked_at": "2026-08-10T20:37:30+03:00",
+  "production_touched": true,
+  "scope": {
+    "path": "/",
+    "removed_visual_block": ".find-doctor-box",
+    "inline_form_id": 2562,
+    "reason": "The customer requested modal forms on the two CTA clicks, not a permanently visible wide inline form.",
+    "modal_form_id_preserved": 3334
+  },
+  "browser_acceptance": {
+    "inline_block_display": "none",
+    "inline_block_dimensions_px": [0, 0],
+    "inline_form_visible": false,
+    "empty_space_left_behind": false,
+    "callback_trigger_opens_form_3334": true,
+    "calculation_trigger_opens_form_3334": true,
+    "horizontal_overflow": false,
+    "forms_submitted": false
+  },
+  "safety": {
+    "target_count": 1,
+    "theme_css_backup": "stored_outside_webroot",
+    "page_cache_clear": "verified"
+  },
+  "result": "verified_done_operator_correction"
+}
