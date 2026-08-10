@@ -12,21 +12,19 @@
       {
         "path": "/",
         "required_text": [
-          "Бесплатный расчёт стоимости",
-          "Получить бесплатный расчет",
-          "Получить бесплатную консультацию",
+          "Заказать звонок",
           "БЕСПЛАТНЫЙ РАСЧЁТ СТОИМОСТИ"
         ],
         "absent_text": ["Internal Server Error"]
       },
       {
         "path": "/o-kompanii/",
-        "required_text": ["Заказать звонок", "Получить бесплатную консультацию"],
+        "required_text": ["Заказать звонок", "Сергей Фофанков"],
         "absent_text": ["bridge-cf7-modal-calculation", "Internal Server Error"]
       },
       {
         "path": "/obekty/",
-        "required_text": ["Заказать звонок", "Получить бесплатную консультацию"],
+        "required_text": ["Заказать звонок", "Наши объекты"],
         "absent_text": ["bridge-cf7-modal-calculation", "Internal Server Error"]
       }
     ]
