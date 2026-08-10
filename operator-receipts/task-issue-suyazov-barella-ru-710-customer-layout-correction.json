@@ -3,7 +3,7 @@
   "kind": "wp_admin_direct_operator_correction_receipt",
   "task_id": "TASK-ISSUE-SUYAZOV_BARELLA.RU-710",
   "orchestration_id": "3bcf82d10921011a3181b296",
-  "checked_at": "2026-08-10T20:19:55+03:00",
+  "checked_at": "2026-08-10T20:31:30+03:00",
   "production_touched": true,
   "customer_contract": {
     "title": "Заполните форму",
@@ -13,19 +13,24 @@
     "phone_below_name": true,
     "close_square": "gray",
     "desktop_dialog_width_px": 520,
-    "compact_layout": true
+    "compact_layout": true,
+    "symmetric_content_inset_px": 26,
+    "common_content_axis": true
   },
   "browser_acceptance": {
     "desktop_1440x1000": {
-      "dialog_size_px": [520, 395],
+      "dialog_size_px": [520, 355],
       "phone_below_name": true,
       "same_column_and_width": true,
+      "content_left_right_insets_px": [26, 26],
+      "vertical_gaps_px": [14, 18, 12, 12, 12],
       "horizontal_overflow": false
     },
     "mobile_430x932": {
-      "dialog_size_px": [410, 431],
+      "dialog_size_px": [410, 391],
       "phone_below_name": true,
       "same_column_and_width": true,
+      "content_left_right_insets_px": [26, 26],
       "horizontal_overflow": false
     },
     "both_triggers_checked": true,
