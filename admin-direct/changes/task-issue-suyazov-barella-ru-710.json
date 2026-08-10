@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "ops": [
+    {
+      "type": "update_option",
+      "key": "bridge_connector_cf7_modal_config",
+      "value": "[{\"id\":\"callback\",\"paths\":[\"/\",\"/o-kompanii/\",\"/obekty/\"],\"trigger_class\":\"book-appointment\",\"trigger_text\":\"Заказать звонок\",\"expected_count\":2,\"form_id\":3334,\"title\":\"Заказать звонок\",\"close_label\":\"Закрыть форму\"},{\"id\":\"calculation\",\"paths\":[\"/\"],\"trigger_class\":\"banner-btn\",\"trigger_text\":\"БЕСПЛАТНЫЙ РАСЧЁТ СТОИМОСТИ\",\"expected_count\":1,\"form_id\":2562,\"title\":\"Бесплатный расчёт стоимости\",\"close_label\":\"Закрыть форму\"}]"
+    }
+  ],
+  "verify": {
+    "checks": [
+      {
+        "path": "/",
+        "required_text": [
+          "bridge-cf7-modal-callback",
+          "bridge-cf7-modal-calculation",
+          "wpcf7-f3334",
+          "wpcf7-f2562",
+          "БЕСПЛАТНЫЙ РАСЧЁТ СТОИМОСТИ"
+        ],
+        "absent_text": ["Internal Server Error"]
+      },
+      {
+        "path": "/o-kompanii/",
+        "required_text": ["bridge-cf7-modal-callback", "wpcf7-f3334", "Заказать звонок"],
+        "absent_text": ["bridge-cf7-modal-calculation", "Internal Server Error"]
+      },
+      {
+        "path": "/obekty/",
+        "required_text": ["bridge-cf7-modal-callback", "wpcf7-f3334", "Заказать звонок"],
+        "absent_text": ["bridge-cf7-modal-calculation", "Internal Server Error"]
+      }
+    ]
+  }
+}
