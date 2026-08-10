@@ -4,7 +4,7 @@
     {
       "type": "update_option",
       "key": "bridge_connector_cf7_modal_config",
-      "value": "[{\"id\":\"callback\",\"paths\":[\"/\",\"/o-kompanii/\",\"/obekty/\"],\"trigger_class\":\"book-appointment\",\"trigger_text\":\"Заказать звонок\",\"expected_count\":2,\"form_id\":3334,\"title\":\"Заказать звонок\",\"close_label\":\"Закрыть форму\"},{\"id\":\"calculation\",\"paths\":[\"/\"],\"trigger_class\":\"banner-btn\",\"trigger_text\":\"БЕСПЛАТНЫЙ РАСЧЁТ СТОИМОСТИ\",\"expected_count\":1,\"form_id\":2562,\"title\":\"Бесплатный расчёт стоимости\",\"close_label\":\"Закрыть форму\"}]"
+      "value": "[{\"id\":\"callback\",\"paths\":[\"/\",\"/o-kompanii/\",\"/obekty/\"],\"trigger_class\":\"book-appointment\",\"trigger_text\":\"Заказать звонок\",\"expected_count\":2,\"form_id\":3334,\"title\":\"Заказать звонок\",\"close_label\":\"Закрыть окно формы\"},{\"id\":\"calculation\",\"paths\":[\"/\"],\"trigger_class\":\"banner-btn\",\"trigger_text\":\"БЕСПЛАТНЫЙ РАСЧЁТ СТОИМОСТИ\",\"expected_count\":1,\"form_id\":2562,\"title\":\"Бесплатный расчёт стоимости\",\"close_label\":\"Закрыть окно формы\"}]"
     }
   ],
   "verify": {
