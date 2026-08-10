@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "kind": "wp_admin_direct_operator_correction_receipt",
+  "task_id": "TASK-ISSUE-SUYAZOV_BARELLA.RU-710",
+  "orchestration_id": "3bcf82d10921011a3181b296",
+  "checked_at": "2026-08-10T20:49:30+03:00",
+  "production_touched": true,
+  "root_cause": "The callback modal had a high-specificity consent override, while the calculation modal inherited theme rules that changed the consent paragraph to flex, expanded its wrapper, and rendered the text white.",
+  "correction": {
+    "shared_form_id": 3334,
+    "shared_title": "Заполните форму",
+    "shared_subtitle": "Наш инженер свяжется с вами в ближайшее время",
+    "shared_consent_text": "Я согласен(на) на обработку персональных данных",
+    "shared_consent_style_contract": true
+  },
+  "browser_acceptance": {
+    "desktop_1440x1000": {
+      "callback_dialog_px": [520, 355],
+      "calculation_dialog_px": [520, 355],
+      "dom_and_geometry_identical": true,
+      "consent_visible_in_both": true
+    },
+    "mobile_430x932": {
+      "callback_dialog_px": [410, 391],
+      "calculation_dialog_px": [410, 391],
+      "dom_and_geometry_identical": true,
+      "consent_visible_in_both": true,
+      "horizontal_overflow": false
+    },
+    "forms_submitted": false
+  },
+  "safety": {
+    "theme_css_backup": "stored_outside_webroot",
+    "page_cache_clear": "verified"
+  },
+  "result": "verified_done_operator_correction"
+}
