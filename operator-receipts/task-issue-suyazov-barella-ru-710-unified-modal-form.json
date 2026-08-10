@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "kind": "wp_admin_direct_operator_correction_receipt",
+  "task_id": "TASK-ISSUE-SUYAZOV_BARELLA.RU-710",
+  "orchestration_id": "3bcf82d10921011a3181b296",
+  "checked_at": "2026-08-10T20:06:05+03:00",
+  "production_touched": true,
+  "change": {
+    "callback_trigger_form_id": 3334,
+    "calculation_trigger_form_id": 3334,
+    "shared_title": "Заполните форму",
+    "shared_subtitle": "Наш инженер свяжется с вами в ближайшее время",
+    "shared_submit_label": "Получить бесплатную консультацию"
+  },
+  "safety": {
+    "backup": "/var/lib/bridge-sy9/operator-backups/barella.ru/modal-form-unification.1786381436206.json",
+    "mail_storage_honeypot_preserved": true,
+    "cache_clear": "verified"
+  },
+  "browser_acceptance": {
+    "desktop_1440x1000": "passed",
+    "mobile_430x932": "passed",
+    "both_render_cf7_form_3334": true,
+    "structural_signatures_identical": true,
+    "horizontal_overflow": false,
+    "forms_submitted": false
+  },
+  "result": "verified_done_operator_correction"
+}
