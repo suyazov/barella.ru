@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "kind": "wp_admin_direct_operator_correction_receipt",
+  "task_id": "TASK-ISSUE-SUYAZOV_BARELLA.RU-710",
+  "orchestration_id": "3bcf82d10921011a3181b296",
+  "checked_at": "2026-08-10T19:51:40+03:00",
+  "production_touched": true,
+  "correction": {
+    "reason": "CF7 controls inherited white-on-white and fixed Bootstrap/theme layout inside the modal",
+    "target": "clinmedix-child/style.css",
+    "scope": "bridge-cf7-modal only",
+    "backup": "/var/lib/bridge-sy9/operator-backups/barella.ru/style.css.1786380484099.bak",
+    "read_back": "verified",
+    "cache_clear": "verified"
+  },
+  "bridge_platform": {
+    "pull_requests": [725, 726],
+    "canonical_connector_version": "1.12.5",
+    "live_connector_version": "1.12.1",
+    "live_css_hotfix_required": true
+  },
+  "browser_acceptance": {
+    "desktop": {
+      "viewport": "1440x1000",
+      "callback_modal": "passed",
+      "calculation_modal": "passed",
+      "horizontal_overflow": false
+    },
+    "mobile": {
+      "viewport": "430x932",
+      "callback_modal": "passed",
+      "calculation_modal": "passed",
+      "horizontal_overflow": false
+    },
+    "controls_visible": true,
+    "consent_visible": true,
+    "forms_submitted": false
+  },
+  "result": "verified_done_operator_correction"
+}
