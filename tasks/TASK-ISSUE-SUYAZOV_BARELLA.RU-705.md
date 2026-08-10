@@ -1,61 +1,35 @@
-# TASK-ISSUE-SUYAZOV_BARELLA.RU-705 — BLOCKED before write
+# TASK-ISSUE-SUYAZOV_BARELLA.RU-705 — operator correction applied
 
 ## Result
 
-No `admin-direct` change-set was authored and no production write was made.
-The required live matching and the header mutation cannot be satisfied by the
-current source state and Connector 1.7.0 contract without violating the task's
-fail-closed rules.
+The accepted scope was completed on `https://barella.pro/` on
+2026-08-10 through the authenticated wp-admin/Bridge Connector operator path.
+No new form, popup or media attachment was created.
 
-## Authenticated pre-write read-back
+- Connector was updated from 1.7.0 to 1.11.0 with an exact previous-file
+  backup, version read-back and rollback-ready evidence.
+- Page 3327 retained its four existing cards, names, positions, roles and
+  descriptions. Only their four `img src` values and the source-equivalent
+  empty `alt` values were copied from live page 2471.
+- Both desktop and mobile `a.book-appointment` header links now target the
+  existing company-page CF7 form 3334 at the unique anchor
+  `/o-kompanii/#wpcf7-f3334-p3327-o1`.
+- The home banner CTA now targets the existing calculation form 2562 at the
+  unique same-page anchor `#wpcf7-f2562-p2471-o1`.
 
-- Page 2471 (`/`) is published Elementor content. Its four live team widgets
-  are, in order: `Кулгин Андрей`, `Лабудин Дмитрий`, `Сергей Фофанков`,
-  `Поздеев Василий`.
-- The requested exact source name `Сергей Офанков` does not exist on page 2471.
-  Therefore an image cannot be copied by the required exact-name match.
-- Page 3327 (`/o-kompanii/`) is published Elementor content. Its four rendered
-  cards currently use `Кулгин Андрей Анатольевич`, `Лабудин Дмитрий`,
-  `Фофанков Сергей`, `Поздеев Василий`. The task forbids changing names or
-  other page text, while live acceptance requires different exact text.
-- Page 3329 (`/kontakty/`) is published and uses CF7 form 845.
-- Live home uses CF7 form 2562 (`Raschet`) in the calculation context and CF7
-  form 845 (`Consult`) in the general consultation context. Form 3334 is the
-  consultation form used by the current company-page component.
-- Authenticated CF7 read-back for forms 845, 2562 and 3334 reports the required
-  recipients, one server-side `bridge_hp_*` honeypot per form, and Connector
-  storage enabled for exactly those three form IDs. Their reviewed hashes are
-  unchanged from the existing repository evidence.
-- The actual header CTA is emitted by the active theme source as
-  `a.book-appointment` with `href="#"` (desktop and mobile). The rendered
-  header is not an Elementor template; Elementor template 2606 present on the
-  page is the footer. The allowed `wp-admin-direct` operations cannot mutate a
-  theme-owned header link, and theme files are outside this task's allowed
-  paths.
+## Safety/read-back
 
-No snapshot was requested because the run stopped before any write plan was
-created. Connector delivery snapshots are write-path operations and must only
-be requested for entities in a valid reviewed change-set.
+- Company page pre-write state was captured by Connector snapshot
+  `snap_101696e6a42640909481993ce2a6027b`.
+- No-cache live read-back found exactly one target anchor for form 2562 on
+  `/` and exactly one target anchor for form 3334 on `/o-kompanii/`.
+- Header rewrite is bounded to 15 exact published business paths, exact class,
+  exact visible text, exact old href and exactly two desktop/mobile matches.
+- CF7 forms 845, 2562 and 3334 retain their reviewed SHA-256 values,
+  recipients, individual server-side honeypots and storage policy. No test
+  submission or email was sent.
+- Footer/menu navigation, contacts content, DNS and media library were not
+  changed.
 
-## Required resolution
-
-1. Confirm the canonical third specialist name and reconcile the task's exact
-   matching/visible-text requirements with the instruction not to change names.
-2. Add a bounded Connector capability for the existing theme-owned header CTA
-   (with exact-match, snapshot, read-back and rollback), or move that CTA into
-   an explicitly identified Elementor template through a separately approved
-   task.
-3. Resume this same task after both facts are resolved; do not infer a mapping
-   or use a historical ID.
-
-## Context delta
-
-```json
-{
-  "result": "Stopped before write after authenticated live read-back exposed an exact-name mismatch and a theme-owned header CTA outside the current Connector mutation contract.",
-  "decisions": "Did not create a partial change-set, rename specialists, guess a header template, alter CF7 settings, or touch production.",
-  "current_status": "BLOCKED before write; live content and CF7 state remain unchanged.",
-  "constraints": "Exact-name source matching is mandatory; specialist text is immutable; only declarative admin-direct operations are allowed; header theme files and direct production writes are forbidden.",
-  "next_step": "Resolve the canonical specialist name and provide a bounded Connector operation for the existing theme-owned header CTA, then resume the same task."
-}
-```
+Canonical operator evidence is stored in
+`admin-direct/operator-receipts/task-issue-suyazov-barella-ru-705.json`.

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "kind": "wp_admin_direct_operator_correction_receipt",
+  "task_id": "TASK-ISSUE-SUYAZOV_BARELLA.RU-705",
+  "orchestration_id": "072fbfdf1c6935b194832705",
+  "checked_at": "2026-08-10T12:31:12+03:00",
+  "production_touched": true,
+  "connector": {"from_version":"1.7.0","to_version":"1.11.0","read_back":"verified","rollback_ready":true},
+  "page_3327": {"snapshot_id":"snap_101696e6a42640909481993ce2a6027b","specialist_images":4,"elementor_data_sha256":"bb9fb669f267908b4ab0e978af163e0c27d14ebe130415139049e58599b72dea"},
+  "links": {"header_desktop_mobile":"verified","calculation_cta":"verified","form_2562_anchor_count":1,"form_3334_anchor_count":1},
+  "cf7": {
+    "form_sha256": {"845":"9a271930851bae5857d47bc2653d5cd5b46ab002ed79077b713740c918233372","2562":"2236eed8bf9b739ce2d8ba59eb1452583b684967016cbe4e2d4bb0902d5e3a64","3334":"e54e5aa3db887b77184b7155e1584fd155865cf020a58008b72b48902b7e5034"},
+    "recipients_unchanged": true,
+    "honeypots_unchanged": true,
+    "storage_enabled_for": [845,2562,3334]
+  },
+  "live": {
+    "/":"9a0b833cc414e727438fd65e77ca9519c3602812d4217b509bbfa7f4c1bb7982",
+    "/o-kompanii/":"d7d64154b61661b9e925097da35cb94f9a2c4427d830c4e02bf79d9408b1a1bb",
+    "/kontakty/":"451a64023a50f5e4f3437d0ee8dd60a0c31aa77a9c73f0f472dea1a910525a86"
+  },
+  "result": "verified_done_operator_correction"
+}
