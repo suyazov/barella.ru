@@ -35,6 +35,16 @@ storage policy, honeypot, theme file, content copy, media or navigation is
 changed. Bridge delivery provides the required snapshot, read-back and
 rollback path after merge.
 
+## Owner live-mismatch correction (generation 2)
+
+The previous visibility override used `body.home` inside Elementor section
+Custom CSS. Elementor scopes section Custom CSS during compilation, so that
+rule becomes a selector which requires `body.home` to be a descendant of the
+section and can never match. The same change-set now uses only the unique
+homepage section scope `.elementor-element-6dab112c .find-doctor-box`, which
+survives Elementor compilation and overrides the known child-theme hide rule.
+The modal option and both existing form IDs remain byte-for-byte unchanged.
+
 ## Post-merge acceptance required
 
 - Before click, exactly one visible non-modal CF7 2562 instance occurs in DOM
