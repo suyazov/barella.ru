@@ -64,6 +64,14 @@
 
 Не удалять Portfolio/AFFiNE/GitHub history при гарантийных правках.
 
+## Текущая гарантийная правка «Объекты» — 2026-10-02
+
+<!-- bridge:project-context-current task=CODEX-TASK-BARELLA-DIRECT-OBEKTY-20261002 -->
+- Authority: точная команда владельца в текущем Codex-чате «делай без bridge»; только `https://barella.pro/obekty/`, WordPress page `3328`. Она не переносится на другие страницы или будущие задачи.
+- Result: подготовлен `admin-direct/changes/obekty-safe-elementor-editing.json`: 10 объектов переведены из монолитного HTML/CSS текстового редактора в штатные контейнеры, заголовки, текстовые и image-виджеты Elementor. Оформление отделено в HTML-виджет; удалено повреждение CSS от визуального редактора. Все тексты, порядок, ссылки, существующие media IDs и CF7 `3334` сохранены.
+- Current state: строгая проверка change-set и структуры прошла; controlled direct apply, live read-back и обратимый тест редактирования ещё не выполнены. Прежние Bridge Issue `#2770` / PR `#2771` закрыты без merge; их ошибочные изменения не применялись.
+- Next action: сохранить точный rollback snapshot страницы, применить только её Elementor-данные и проверить desktop/mobile и редактирование с восстановлением. Инструкция клиента: [EDITING_OBJECTS.md](EDITING_OBJECTS.md).
+
 ## 5. Критичный открытый бизнес-вопрос после сдачи
 
 После сдачи клиент сообщил:
